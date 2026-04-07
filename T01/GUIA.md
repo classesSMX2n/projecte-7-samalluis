@@ -1,10 +1,11 @@
-# 🏢 Anàlisi d'Empreses de Serveis Informàtics
+# 💡 Fase 1: Coneixent el terreny i la competència
 
-Aquest document detalla les característiques, mides i serveis especialitzats de tres entitats clau en el sector tecnològic local.
+
+## 🏢 Anàlisi d'Empreses de Serveis Informàtics
 
 ---
 
-## 1. D Y D SERVEIS INFORMÀTICS
+### 1. D Y D SERVEIS INFORMÀTICS
 > **Enfocament:** Suport de proximitat i infraestructura física.
 
 * **Mida:** `Microempresa` 👥
@@ -16,7 +17,7 @@ Aquest document detalla les característiques, mides i serveis especialitzats de
 
 ---
 
-## 2. Serveis Informàtics - Market Software
+### 2. Serveis Informàtics - Market Software
 > **Enfocament:** Capa lògica, gestió de dades i solucions de programari.
 
 * **Mida:** `PIME (Petita Empresa)` 🏢
@@ -28,7 +29,7 @@ Aquest document detalla les característiques, mides i serveis especialitzats de
 
 ---
 
-## 3. Serveis Informàtics Digitalnet
+### 3. Serveis Informàtics Digitalnet
 > **Enfocament:** Connectivitat moderna i serveis digitals integrats.
 
 * **Mida:** `PIME` 🚀
@@ -40,23 +41,13 @@ Aquest document detalla les característiques, mides i serveis especialitzats de
 
 ---
 
-## 📊 Taula Comparativa de Resum
+### 📊 Taula Comparativa de Resum
 
 | Empresa | Mida | Especialització Principal |
 | :--- | :--- | :--- |
 | **D Y D** | `Microempresa` | Suport tècnic i Hardware |
 | **Market Software** | `PIME` | Programari de gestió i Consultoria |
 | **Digitalnet** | `PIME` | Xarxes, Cloud i Sistemes |
-
----
-*Document creat amb propòsits informatius per a la gestió de proveïdors IT.*
-
-# T01: Coneixent la competència i el sector 🚀
-
-## 📝 Descripció del Projecte
-Hem fundat una nova empresa de serveis informàtics a **Mataró** i se'ns presenta la nostra primera gran oportunitat: **FoodLogístic S.A.**, una empresa logística del Polígon de les Hortes. 
-
-Aquest repositori conté l'anàlisi de mercat, l'estructura organitzativa i l'estratègia competitiva necessària per guanyar la licitació d'aquest projecte de renovació tecnològica.
 
 ---
 
@@ -100,7 +91,7 @@ DG --> ADM
 
 ---
 
-## 💡 Fase 2: Estratègia
+# 💡 Fase 2: Estratègia
 
 ### 🎯 Definició de la Proposta de Valor
 Per diferenciar-nos de la competència a Mataró, la nostra estratègia es basa en:
