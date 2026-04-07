@@ -94,26 +94,25 @@ DG --> ADM
 # 💡 Fase 2: Estratègia
 
 ### 🎯 Definició de la Proposta de Valor
-Per diferenciar-nos de la competència a Mataró, la nostra estratègia es basa en:
+Ens diferenciarem de la competència establerta a Mataró mitjançant:
 
-* **Proximitat i Temps de Resposta:** En estar ubicats a la mateixa ciutat, garantim assistència presencial en menys de 2 hores.
-* **Especialització Logística:** Adaptem les solucions IT específicament per a entorns de magatzem i distribució alimentària.
-* **Monitorització Proactiva:** No esperem que el client ens truqui; detectem l'error abans que s'aturi la producció.
+* **Proximitat Total:** Som a prop de FoodLogístic, garantint intervencions físiques immediates.
+* **Agilitat de Startup:** En ser un equip de 3, el tracte és directe amb els tècnics, sense intermediaris ni esperes burocràtiques.
+* **Monitorització 24/7:** Implementació de sistemes de control proactiu per evitar parades en la cadena logística.
 
-### 👥 Recursos Necessaris
-Per donar un servei excel·lent a **FoodLogístic S.A.**, hem definit el següent equip:
+### 👥 Recursos Necessaris (Capacitat Actual)
+Actualment, la nostra empresa està formada per **3 persones**. Hem decidit repartir-nos les funcions de la següent manera per cobrir el projecte de **FoodLogístic S.A.**:
 
-1.  **1 Cap de Projecte:** Gestió de la relació amb el client i planificació.
-2.  **2 Tècnics de Sistemes:** Per a la renovació física i configuració de xarxes.
-3.  **1 Tècnic de Suport (Nivell 1):** Dedicat a les consultes diàries del personal de FoodLogístic.
+1.  **Soci 1 (Project Manager & Comercial):** Encarregat de la gestió del client, pressupostos i la part administrativa.
+2.  **Soci 2 (Especialista en Sistemes):** Responsable de la renovació de la infraestructura i seguretat de xarxes.
+3.  **Soci 3 (Tècnic de Suport/Helpdesk):** Dedicat a la resolució d'incidències diàries i manteniment preventiu.
 
-> [!NOTE]
-> Actualment som suficients per a l'arrencada, però preveiem la contractació d'un tècnic addicional si el volum d'incidències de la nova infraestructura supera les 10 setmanals.
+> [!IMPORTANT]
+> **Valoració de personal:** Amb el volum actual de FoodLogístic, **som suficients per arrencar**. No obstant això, si aconseguim un segon client de mida similar, preveiem la contractació externa d'un tècnic de suport nivell 1 per no comprometre la qualitat del servei.
 
 ---
 
 ### 🛠️ Eines Utilitzades
-* **PlantUML:** Disseny de l'organigrama mitjançant codi.
-* **UMLTree:** Estructuració de jerarquies clares.
-* **IA:** Optimització i generació del model estructural.
-
+* **PlantUML:** Generació de diagrames mitjançant codi.
+* **UMLTree:** Estructuració jeràrquica.
+* **IA:** Suport en l'optimització del model de negoci i codificació del README.
