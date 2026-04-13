@@ -1,57 +1,57 @@
-# 🛡️ Campanya de Seguretat de la Informació: FoodLogistic
+# 🛡️ Plan de Capacitación: Privacidad y Protección de Datos en FoodLogistic
 
-Aquesta proposta de guió s'ha elaborat integrant els requeriments de l'activitat de **FoodLogistic** amb les línies mestres del **Pla Estratègic de l'AEPD 2025-2030**, posant un èmfasi especial en la prevenció, la innovació responsable i la protecció de la dignitat humana en l'era digital.
-
----
-
-# 🛡️ Guion de Vídeos: Cumplimiento Legal y Protección de Datos
-
-Este documento detalla el guion y la estructura visual para las cápsulas formativas sobre protección de datos en **FoodLogistic**, alineadas con el **Plan Estratégico 2025-2030 de la AEPD**.
+Este repositorio contiene los guiones detallados y la estrategia de producción para las cápsulas formativas de **FoodLogistic**, alineadas con el **Plan Estratégico de la AEPD 2025-2030**.
 
 ---
 
-## 📽️ Vídeo 1: Cumplimiento legal en el día a día a FoodLogistic
-**Enfoque:** La seguridad como una cultura colectiva, no solo una norma.
+## 📽️ Vídeo 1: Cumplimiento Legal en el Día a Día
+**Público objetivo:** Personal de Almacén, Transportistas y Oficinas.  
+**Estrategia:** Simulación de errores comunes y corrección en vivo (Learning by doing).
 
-| Tiempo | Escena / Acción | Guion Detallado (Locución) | Elementos Visuales / Rètols |
-| :--- | :--- | :--- | :--- |
-| **0:00-1:00** | **Introducción y Valores** | "En FoodLogistic, movemos mercancías, pero también movemos miles de datos personales. Según el Plan Estratégico de la AEPD, 'detrás de cada dato hay una persona'. Nuestra misión es una innovación responsable." | **Dignidad Humana = Protección de Datos** |
-| **1:00-2:00** | **Uso de Dispositivos** | "El bloqueo de sesión ($Windows+L$) no es solo una rutina; es la primera barrera contra accesos no autorizados. Una sesión abierta es una puerta abierta a la vida privada de otros. Las contraseñas deben ser robustas." | **$Windows+L$: Tu escudo diario** |
-| **2:00-3:00** | **Impresión y Espacio Físico** | "Un documento olvidado en la impresora es una brecha de seguridad en potencia. Debemos aplicar la privacidad por defecto: si imprimes algo con datos, recógelo al instante. Si no es necesario, usa la trituradora." | **Privacidad por Defecto: Recoger y Triturar** |
-| **3:00-4:30** | **Redes y Almacenamiento** | "Guardar archivos en un Drive personal para 'adelantar trabajo' pone los datos fuera del control de la empresa, lo cual es ilegal. Los USB externos son vectores de malware. Usa solo dispositivos autorizados." | **Canales Oficiales: Seguridad Controlada** |
-| **4:30-6:00** | **Conclusión y Alerta** | "La AEPD resalta la importancia de la sensibilización. Si detectas algo sospechoso, informa. Una empresa segura es aquella donde todos somos 'embajadores' de la privacidad." | **FoodLogistic: Entorno Confiable** |
-
----
-
-## 📽️ Vídeo 2: Protecció de dades a RRHH i Gestió
-**Enfoque:** Gestión avanzada, transparencia algorítmica y cumplimiento proactivo.
-
-### 📋 Estructura de Contenidos
-
-1.  **Gestión de Currículums (0:00-1:30)**
-    * **Locución:** No guardamos perfiles "por si acaso". Debemos informar sobre los plazos de conservación y destruir la información tras el proceso de selección.
-    * *Visual:* **Transparencia en la Selección.**
-
-2.  **Responsables y Encargados (1:30-3:00)**
-    * **Locución:** FoodLogistic es el Responsable (RT) y la gestoría es el Encargado (ET). Esta relación debe estar blindada por contratos según el Plan Estratégico 2025-2030.
-    * *Visual:* **FoodLogistic (RT) $\rightarrow$ Gestoría (ET).**
-
-3.  **Confidencialidad y Ética (3:00-4:30)**
-    * **Locución:** El Art. 5 del RGPD obliga al secreto profesional. Si usamos IA para filtrar perfiles, la AEPD exige supervisión humana constante. La máquina no decide sola.
-    * *Visual:* **Supervisión Humana Obligatoria.**
-
-4.  **Derechos ARSULIPO (4:30-6:00)**
-    * **Locución:** Acceso, rectificación, supresión... Ignorar una petición es una infracción grave. Debemos ser la vía facilitadora para el ciudadano.
-    * *Visual:* **Garantía de Derechos ARSULIPO.**
+| Tiempo | Escena / Visual | Diálogo / Locución Detallada |
+| :--- | :--- | :--- |
+| **00:00-02:00** | **Intro y Gancho:** El presentador recorre el almacén entre camiones y logística real. | "¡Hola equipo! Soy [Nombre]. Hoy hablamos de la logística de la confianza. El Plan Estratégico AEPD 2025-2030 sitúa la privacidad como pilar digital. Blindaremos esa confianza en 10 minutos." |
+| **02:00-04:00** | **Módulo 1: El 'Dato':** Zoom a un albarán (Nombre, teléfono, códigos). | "Un dato no es solo el DNI. Este código de portal es información sensible. La **LOPDGDD 3/2018** nos obliga a protegerlo por respeto a la vida privada." |
+| **04:00-06:00** | **Módulo 2: Puesto de Trabajo:** Reto 'Encuentra el error' en mesa desordenada. | "Bloqueo de sesión: `Windows + L`. Es un reflejo muscular. Sobre contraseñas: Prohibido el post-it. Usad frases de paso como `MiCamionEsRojo2024!`." |
+| **06:00-08:00** | **Módulo 3: Impresión:** Acción en zona de impresoras y trituradora. | "¿Documento olvidado? Es una brecha de datos. Si no sirve, usamos la trituradora de nivel **P4**. El papel debe ser confeti, no tiras." |
+| **08:00-10:00** | **Módulo 4: USBs y Redes:** Demo de ataque 'Bad USB'. | "No conectéis USBs encontrados en el parking. Pueden cifrar nuestros servidores. Usad solo la nube corporativa. Lo de la empresa, se queda en la empresa." |
+| **10:00-11:00** | **Conclusión:** Resumen con puntos clave en pantalla. | "La seguridad empieza en tu dedo y termina en la trituradora. Realizad el test en el siguiente enlace. ¡Gracias, guardianes!" |
 
 ---
 
-## 📚 Fuentes Consultadas
+## 📽️ Vídeo 2: Protección de Datos en RRHH y Gestión
+**Público objetivo:** Personal administrativo y mandos intermedios.  
+**Estrategia:** Análisis profundo de artículos legales y casos prácticos.
 
-* **Agencia Española de Protección de Datos (AEPD):**
-    * *Plan Estratégico 2025-2030:* Innovación responsable y defensa de la dignidad en la era digital (Julio 2025).
-    * **Eje 3:** Promover y acompañar el cumplimiento normativo.
-    * **Eje 7:** Apertura, cercanía y cultura de protección de datos.
-    * **Sección 2.V:** Principios de Proactividad y Prevención.
-* **Reglamento General de Protección de Datos (RGPD):**
-    * Artículos sobre principios del tratamiento y derechos de los interesados.
+| Tiempo | Escena / Visual | Diálogo / Locución Detallada |
+| :--- | :--- | :--- |
+| **00:00-02:00** | **Intro Técnica:** Oficina de RRHH. Gráficos sobre RGPD. | "Bienvenidos. Ustedes gestionan vidas (nóminas, bajas). Según el Eje 3 de la AEPD, el cumplimiento debe ser proactivo: debemos demostrar que protegemos." |
+| **02:00-04:30** | **Módulo 1: Ciclo del CV:** Escena de entrevista y archivo. | "Los CV por WhatsApp son un riesgo. Deben entrar por el portal con consentimiento. Plazo: máximo 2 años. Aplicaremos protocolos de purga trimestral." |
+| **04:30-07:00** | **Módulo 2: Responsable vs Encargado:** Esquema de flujo de datos. | "**FoodLogistic (Responsable)** vs **Gestoría (Encargado)**. El Art. 28 del RGPD nos obliga a firmar un contrato de encargo. Sin contrato, la multa es nuestra." |
+| **07:00-09:00** | **Módulo 3: Derechos:** Tabla de derechos ARSULIPO. | "¿Derecho al olvido? No borramos todo; **bloqueamos** datos para Hacienda/SS por 5 años. Diferenciemos suprimir de bloquear para evitar denuncias." |
+| **09:00-10:30** | **Módulo 4: Plan 2025:** Lectura de fragmentos del PDF AEPD. | "El nuevo plan pone el foco en la **Innovación Responsable**. Antes de usar una IA para cribar CVs, realizaremos una Evaluación de Impacto (EIPD)." |
+| **10:30-11:00** | **Cierre y Recursos:** Lista de URLs y contacto del DPD. | "La gestión excelente requiere protección excelente. Plantillas disponibles en la intranet. Gracias por asegurar nuestra ética digital." |
+
+---
+
+## ⚙️ Guía de Producción (Tips para 11 minutos)
+
+> [!TIP]
+> Para asegurar que el contenido sea didáctico y cumpla el tiempo estipulado:
+> * **Ritmo Pedagógico:** Realiza pausas de 2-3 segundos tras mencionar artículos legales.
+> * **Demos Físicas:** Muestra el funcionamiento real de la trituradora y la creación de contraseñas seguras paso a paso.
+> * **Testimonios:** Incluye clips de 30s de empleados reales reforzando los hábitos de seguridad.
+> * **Evidencia Visual:** Dedica un minuto a desglosar el índice del Plan Estratégico 2025-2030 de la AEPD.
+
+---
+
+## 📚 Fuentes y Referencias Obligatorias
+
+1.  **AEPD:** *Plan Estratégico 2025-2030: Innovación responsable y defensa de la dignidad.* (Julio 2025).
+2.  **LOPDGDD 3/2018:** Artículos sobre confidencialidad y tratamiento laboral.
+3.  **RGPD (UE) 2016/679:** * `Artículo 5`: Principios del tratamiento.
+    * `Artículo 28`: Obligaciones del encargado del tratamiento.
+4.  **Guía AEPD:** *Tratamiento de datos en las relaciones laborales.*
+
+---
+⭐ *Este material es propiedad de FoodLogistic. Su uso es estrictamente interno.*
