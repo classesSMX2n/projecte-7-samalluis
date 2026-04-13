@@ -1,118 +1,112 @@
-# 💡 Fase 1: Coneixent el terreny i la competència
+# T01: Coneixent la competència i el sector
 
-
-## 🏢 Anàlisi d'Empreses de Serveis Informàtics
-
----
-
-### 1. D Y D SERVEIS INFORMÀTICS
-> **Enfocament:** Suport de proximitat i infraestructura física.
-
-* **Mida:** `Microempresa` 👥
-    * Estructures de pocs treballadors que ofereixen un tracte directe i personalitzat.
-* **Tipus de serveis:**
-    * 🔧 **Manteniment:** Suport tècnic preventiu i reactiu per a parcs informàtics.
-    * 💻 **Hardware:** Reparació d'equips i venda de components.
-    * 🌐 **Xarxes:** Instal·lació i configuració de xarxes locals (LAN) i connectivitat bàsica.
+## Grup de treball
+- Albert Teruel
+- Joel Dominguez
+- Lluis García
 
 ---
 
-### 2. Serveis Informàtics - Market Software
-> **Enfocament:** Capa lògica, gestió de dades i solucions de programari.
+## Fase 1: Coneixent el terreny i la competència
 
-* **Mida:** `PIME (Petita Empresa)` 🏢
-    * Estructura robusta especialitzada en la gestió de llicències i desenvolupament.
-* **Tipus de serveis:**
-    * 📊 **Software:** Implantació de programari de gestió (ERP, CRM) i solucions ofimàtiques.
-    * 🤝 **Consultoria:** Assessorament sobre eines adaptades al flux de treball.
-    * 🛡️ **Seguretat de dades:** Gestió d'antivirus i còpies de seguretat.
+### 1.1 Recerca de mercat
 
----
+Hem investigat el mercat local de Mataró per saber qui més podria presentar una oferta a FoodLogístic S.A.  
+Hem seleccionat aquestes tres empreses amb seu física a la ciutat:
 
-### 3. Serveis Informàtics Digitalnet
-> **Enfocament:** Connectivitat moderna i serveis digitals integrats.
-
-* **Mida:** `PIME` 🚀
-    * Requereix personal especialitzat en infraestructures digitals complexes.
-* **Tipus de serveis:**
-    * 📡 **Xarxes i Telecomunicacions:** Especialistes en WiFi i connectivitat a internet.
-    * ☁️ **Serveis al Cloud:** Hosting, correu electrònic corporatiu i solucions al núvol.
-    * 🖥️ **Manteniment integral:** Gestió de sistemes (hardware i xarxa).
+| Empresa | Mida | Serveis principals | Pàgina Web |
+|----------|------|--------------------|-------------|
+| Main Memory | PIME | Gestió d'infraestructures, manteniment preventiu i seguretat. | [main.cat](https://www.mainmemory.es/ ) |
+| Ilimit | PIME | Especialistes en Cloud, ciberseguretat i servidors gestionats. | [ilimit.com](https://ilimit.com/) |
+| Infored | Micro / PIME | Manteniment informàtic local, xarxes i venda de hardware. | [infored.es](https://infored.es/ ) |
 
 ---
 
-### 📊 Taula Comparativa de Resum
+### 1.2 L’organigrama
 
-| Empresa | Mida | Especialització Principal |
-| :--- | :--- | :--- |
-| **D Y D** | `Microempresa` | Suport tècnic i Hardware |
-| **Market Software** | `PIME` | Programari de gestió i Consultoria |
-| **Digitalnet** | `PIME` | Xarxes, Cloud i Sistemes |
+Hem definit l'estructura jeràrquica d'una empresa de serveis informàtics mitjana de Mataró (com podria ser Main o Ilimit ja que aquestas dades no son publiques).
 
----
+<img width="906" height="453" alt="image" src="https://github.com/user-attachments/assets/4f40123a-0d66-465a-abe4-43aa5c8e95fd" />
 
-### 🏗️ L'Organigrama (Estructura de l'empresa tipus)
-A continuació es mostra l'estructura jeràrquica recomanada per a una empresa de serveis IT competitiva al Maresme, generada mitjançant **PlantUML**.
-
-```plantuml
+#### Fragment de codi UML
+```
 @startuml
-header Organigrama Empresa IT Mataró
-title Estructura Organitzativa Tipus
+skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
 
-node "Direcció General" as DG #Strategy
+node "Direcció General\n(Estratègia i Decisions)" as CEO
 
-package "Departament Tècnic" {
-    node "Sistemes i Infraestructura" as SIS
-    node "Suport / Helpdesk" as HELP
-}
+node "Administració i RH\n(Facturació i Talent)" as Admin
+node "Comercial i Màrqueting\n(Vendes i Clients)" as Comercial
+node "Direcció Tècnica (CTO)\n(Operacions i Tecnologia)" as CTO
 
-package "Departament Comercial" {
-    node "Vendes i Màrqueting" as COM
-}
+node "Àrea d'Infraestructura\ni Sistemes" as Sist
+node "Àrea de Suport\ni Helpdesk" as Suport
+node "Àrea de Ciberseguretat\ni Cloud" as Security
 
-package "Administració" {
-    node "Recursos Humans i Finances" as ADM
-}
+node "Administradors de Xarxes" as Xarxes
+node "Tècnics L1/L2\n(Atenció Directa)" as Tècnics
+node "Tècnics de Camp\n(Desplaçaments)" as Camp
 
-DG --> SIS
-DG --> HELP
-DG --> COM
-DG --> ADM
+CEO --> Admin
+CEO --> Comercial
+CEO --> CTO
 
+CTO --> Sist
+CTO --> Suport
+CTO --> Security
+
+Sist --> Xarxes
+Suport --> Tècnics
+Suport --> Camp
 @enduml
-````
-
-### 📋 Radiografia de Departaments
-
-* **Sistemes i Infraestructura:** Responsable del disseny, instal·lació i manteniment de servidors, xarxes i seguretat.
-* **Suport / Helpdesk:** Atenció directa al client, resolució d'incidències tècniques i manteniment preventiu.
-* **Comercial:** Captació de nous clients (com FoodLogístic) i gestió de comptes existents.
-* **Administració:** Gestió de facturació, comptabilitat i recursos humans.
+```
 
 ---
 
-# 💡 Fase 2: Estratègia
+### 1.3 Radiografia de departaments
 
-### 🎯 Definició de la Proposta de Valor
-Ens diferenciarem de la competència establerta a Mataró mitjançant:
+Aquesta és la justificació de les funcions per a l'empresa tipus:
 
-* **Proximitat Total:** Som a prop de FoodLogístic, garantint intervencions físiques immediates.
-* **Agilitat de Startup:** En ser un equip de 3, el tracte és directe amb els tècnics, sense intermediaris ni esperes burocràtiques.
-* **Monitorització 24/7:** Implementació de sistemes de control proactiu per evitar parades en la cadena logística.
+Direcció Tècnica (CTO): És el cervell de l'empresa. Decideix quines tecnologies s'aplicaran a FoodLogístic.
 
-### 👥 Recursos Necessaris (Capacitat Actual)
-Actualment, la nostra empresa està formada per **3 persones**. Hem decidit repartir-nos les funcions de la següent manera per cobrir el projecte de **FoodLogístic S.A.**:
+Àrea d'Infraestructura i Sistemes: S’encarreguen dels servidors i que la xarxa no caigui. És el departament on treballaria en Joel Dominguez.
 
-1.  **Soci 1 (Project Manager & Comercial):** Encarregat de la gestió del client, pressupostos i la part administrativa.
-2.  **Soci 2 (Especialista en Sistemes):** Responsable de la renovació de la infraestructura i seguretat de xarxes.
-3.  **Soci 3 (Tècnic de Suport/Helpdesk):** Dedicat a la resolució d'incidències diàries i manteniment preventiu.
+Àrea de Suport i Helpdesk: És la cara visible per al client. Resolvèn els dubtes diaris. Aquí és on treballaria en Lluis García.
 
-> [!IMPORTANT]
-> **Valoració de personal:** Amb el volum actual de FoodLogístic, **som suficients per arrencar**. No obstant això, si aconseguim un segon client de mida similar, preveiem la contractació externa d'un tècnic de suport nivell 1 per no comprometre la qualitat del servei.
+Àrea Comercial i Administració: S’encarreguen dels contractes, les factures i de que el client estigui content. És l'àrea gestionada per l'Albert Teruel.
+
+Àrea de Ciberseguretat: Un departament clau avui dia per protegir les dades de logística d'atacs externs.
 
 ---
 
-### 🛠️ Eines Utilitzades
-* **PlantUML:** Generació de diagrames mitjançant codi.
-* **UMLTree:** Estructuració jeràrquica.
-* **IA:** Suport en l'optimització del model de negoci i codificació del README.
+## Fase 2: Estratègia
+
+### 2.1 Definició de l’estratègia
+
+La nostra proposta guanyadora contra empreses més grans com Main o Ilimit serà el Suport Tècnic de KM.0.
+
+Justificació:  
+FoodLogístic està al Camí Ral (Polígon de les Hortes) i nosaltres som de Mataró.  
+Mentre que una empresa gran pot trigar hores a enviar un tècnic, nosaltres garantim que estarem a les seves oficines en 15 minuts davant qualsevol aturada crítica del sistema de càrrega de camions.
+
+### 2.2 Recursos necessaris
+
+Per cobrir les necessitats de FoodLogístic S.A., hem definit el següent equip:
+
+- Cap de Projecte i Administració (Albert Teruel): S'encarregarà de la part legal, la compra de material i de parlar amb els directius del client.
+
+- Enginyer de Sistemes i Xarxes (Joel Dominguez): Serà el responsable de dissenyar la nova infraestructura i configurar els servidors i la seguretat.
+
+- Tècnic de Suport i Helpdesk (Lluis García): S'encarregarà d'atendre els treballadors de la nau i resoldre els problemes del dia a dia amb els ordinadors i les terminals.
+
+#### Som suficients o ens cal més personal?
+
+La nostra conclusió és que per al manteniment diari som suficients, però per a la fase de renovació a fons de la infraestructura (que és un volum de feina molt gran i físic), necessitarem:
+
+Contractació externa temporal: Necessitarem contractar una empresa de cablejat o un parell de tècnics autònoms durant les dues primeres setmanes.
+
+Raonament: Una empresa de logística al Polígon de les Hortes té una nau gran. Nosaltres tres ens hem de centrar en la configuració i la gestió; si ens posem a tirar cable o muntar racks físicament, el projecte anirà massa lent i no podrem atendre les urgències del client.
+
+---
