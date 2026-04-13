@@ -1,65 +1,61 @@
-# 📦 Plan Estratégico FoodLogistic 2025-2030: Formación en Protección de Datos
+# 📦 Pla Estratègic FoodLogistic 2025-2030: Formació en Protecció de Dades
 
-Este repositorio contiene los guiones completos y la estructura técnica para la capacitación del personal de **FoodLogistic**, alineada con el Plan Estratégico de la **AEPD**.
-
----
-
-## 📽️ Vídeo 1: Cumplimiento legal en el día a día en FoodLogistic
-**Público objetivo:** 🚛 Personal de Almacén, Transportistas y Oficinas.
-
-### Escena 1: Introducción - La "Logística de la Dignidad"
-* **Visual:** El presentador camina por el muelle de carga. Vemos el ajetreo de las carretillas. Se detiene ante un panel informativo que muestra el lema del Plan 2025: *"Innovación responsable y defensa de la dignidad en la era digital"*.
-* **Diálogo:** > "¡Hola equipo! En FoodLogistic no solo somos expertos en mover productos frescos o mercancía seca; somos gestores de la confianza. El nuevo Plan Estratégico de la AEPD para esta década nos pide que dejemos de ver la protección de datos como una obligación administrativa y empecemos a verla como un compromiso ético. Detrás de cada etiqueta, de cada ruta de transporte y de cada albarán, hay una persona. Proteger sus datos es proteger su dignidad. Hoy vamos a elevar nuestro estándar de calidad: no buscamos solo el cumplimiento, buscamos la excelencia técnica y la prevención."
-
-### Escena 2: Módulo 1 - El "Ecosistema del Dato" en Logística
-* **Visual:** El presentador sostiene un terminal de radiofrecuencia (PDA) y luego señala un albarán físico. En pantalla aparecen términos: *Datos identificativos, Datos de geolocalización, Datos de contacto*.
-* **Diálogo:** > "¿Qué es realmente un dato en nuestro día a día? No es solo el DNI. En logística, un dato es el código de acceso a un almacén de un cliente, es el número personal de un transportista autónomo, o incluso las coordenadas GPS de una entrega. Según la LOPDGDD 3/2018, tenemos la obligación de custodia. Imaginad que un albarán con la dirección y el teléfono de un cliente VIP acaba volando por el parking por un descuido. Eso no es un error de limpieza, es una 'Brecha de Seguridad'. El Plan de la AEPD nos insta a ser proactivos: si ves un dato expuesto, actúa. La privacidad debe estar integrada en el diseño de nuestras tareas, desde que cargamos el camión hasta que firmamos la entrega."
-
-### Escena 3: Módulo 2 - Ciberhigiene y la "Fortaleza del Puesto"
-* **Visual:** El presentador se sienta en una oficina de control de stock. Hay un caos ordenado. Enfoque en un teclado y un monitor.
-* **Diálogo:** > "Hablemos de nuestra primera línea de defensa. La AEPD habla de una 'Agencia Inteligente', y nosotros debemos ser un 'Equipo Inteligente'. Vuestro ordenador es una puerta de entrada a toda la red de FoodLogistic. El comando **Windows + L** es vuestro mejor aliado; bloquead la sesión aunque solo vayáis a por un café. Y sobre las contraseñas: el Plan 2025 promueve la seguridad técnica avanzada. Olvidad el nombre de vuestro perro o fechas de nacimiento. Cread 'frases de paso'. Por ejemplo: **¿DondeEstaMiPalet2026?**. Es larga, segura y fácil de recordar. Y por favor, nada de post-its pegados al monitor. La seguridad es invisible, pero sus consecuencias no lo son."
-
-### Escena 4: Módulo 3 - La Gestión del Soporte Físico (El Ciclo del Papel)
-* **Visual:** El presentador muestra la bandeja de 'salida' de una impresora común. Hay documentos acumulados. Luego se dirige a una trituradora de alta seguridad.
-* **Diálogo:** > "La zona de impresoras suele ser el punto más débil. Imprimir documentos con datos sensibles y dejarlos allí durante horas es una negligencia que la AEPD sanciona con severidad. Si imprimes, recoge el papel de inmediato. Y cuando ese documento ya no tiene valor operativo —como un listado de rutas del día anterior—, no va a la papelera. Va a la trituradora de seguridad P4. El objetivo es que la información sea irrecuperable. El Plan 2025-2030 hace hincapié en la 'supervisión sistemática': no vale con hacerlo bien hoy, hay que hacerlo bien siempre."
-
-### Escena 5: Módulo 4 - Dispositivos Externos y Amenazas Digitales
-* **Visual:** Un camión llega y un conductor externo le ofrece un USB al administrativo para "imprimir una factura rápidamente". El administrativo se niega amablemente y señala un cartel de "Protocolo de Seguridad".
-* **Diálogo:** > "Esta escena ocurre a diario. Un proveedor os pide conectar su USB 'solo un segundo'. Bajo el nuevo marco de ciberseguridad, esto es una línea roja. Un USB desconocido puede contener malware que cifre nuestros servidores en segundos, paralizando la logística de toda la región. La AEPD nos pide una cultura de 'Prevención'. Usad siempre los canales oficiales: correo corporativo o nuestra nube protegida. Si no es un dispositivo verificado por FoodLogistic, no tiene sitio en nuestros equipos."
-
-### Escena 6: Conclusión y Compromiso con la Excelencia
-* **Visual:** El presentador se une a un grupo de trabajadores que llevan chalecos reflectantes. Todos miran a cámara.
-* **Diálogo:** > "La protección de datos en FoodLogistic es una tarea de equipo. No es algo que solo importe en el departamento legal; importa aquí, entre cajas y camiones. Cumplir con el Plan Estratégico de la AEPD nos hace una empresa más robusta, más moderna y más respetuosa. Al finalizar este vídeo, encontraréis un test de validación. No es solo un examen, es vuestro compromiso con la seguridad de todos. ¡Gracias por vuestra profesionalidad!"
+Aquest repositori conté els guions complets i l'estructura tècnica per a la capacitació del personal de **FoodLogistic**, alineada amb el **Pla Estratègic de l'AEPD**.
 
 ---
 
-## 📽️ Vídeo 2: Protección de datos en RRHH y Gestión
-**Público objetivo:** 💼 Personal administrativo y mandos intermedios.
+## 📽️ Vídeo 1: Compliment legal en el dia a dia a FoodLogistic
+**Públic objectiu:** 🚛 Personal de Magatzem, Transportistes i Oficines.
 
-### Escena 1: Introducción - Supervisión Inteligente y Ética
-* **Visual:** Oficina de RRHH. El presentador está frente a un monitor con gráficos de cumplimiento normativo.
-* **Diálogo:** > "Bienvenidos a este módulo especializado. En los departamentos de gestión, somos los depositarios de la información más sensible de la compañía: nóminas, bajas médicas, contratos y valoraciones de desempeño. El Plan Estratégico 2025-2030 de la AEPD introduce el concepto de 'Administración Eficaz' y 'Supervisión Inteligente'. Ya no se trata solo de cumplir la ley, sino de liderar con el ejemplo. Nuestra gestión debe ser proactiva: debemos detectar el riesgo antes de que se convierta en una infracción."
+### Escena 1: Introducció - La "Logística de la Dignitat"
+* **Visual:** El presentador camina pel moll de càrrega. Veiem el tràfec dels carretons. S'atura davant d'un panell informatiu que mostra el lema del Pla 2025: *"Innovació responsable i defensa de la dignitat en l'era digital"*.
+* **Diàleg:** > "Hola equip! A FoodLogistic no només som experts a moure productes frescos o mercaderia seca; som gestors de la confiança. El nou Pla Estratègic de l'AEPD per a aquesta dècada ens demana que deixem de veure la protecció de dades com una obligació administrativa i comencem a veure-la com un compromís ètic. Darrere de cada etiqueta, de cada ruta de transport i de cada albarà, hi ha una persona. Protegir les seves dades és protegir la seva dignitat. Avui elevarem el nostre estàndard de qualitat: no busquem només el compliment, busquem l'excel·lència tècnica i la prevenció."
 
-### Escena 2: Módulo 1 - El Ciclo de Vida del Talento y la Privacidad desde el Diseño
-* **Visual:** El presentador revisa una plataforma de reclutamiento digital.
-* **Diálogo:** > "¿Cómo tratamos a quienes quieren trabajar con nosotros? El principio de 'Privacidad desde el Diseño' significa que nuestras herramientas deben proteger al candidato desde el minuto uno. Recibir CVs por canales no oficiales, como redes sociales privadas o servicios de mensajería, rompe la trazabilidad del consentimiento. Según las nuevas directrices, debemos centralizar todo en nuestro portal oficial y aplicar políticas de retención estrictas. ¿Un candidato no fue seleccionado? Su dato tiene fecha de caducidad: 2 años máximo, a menos que haya una base legal distinta. La purga de datos no es solo limpieza, es cumplimiento del derecho de supresión."
+### Escena 2: Mòdul 1 - L'"Ecosistema de la Dada" en Logística
+* **Visual:** El presentador sosté un terminal de radiofreqüència (PDA) i després assenyala un albarà físic. En pantalla apareixen termes: *Dades identificatives, Dades de geolocalització, Dades de contacte*.
+* **Diàleg:** > "Què és realment una dada en el nostre dia a dia? No és només el DNI. En logística, una dada és el codi d'accés a un magatzem d'un client, és el número personal d'un transportista autònom, o fins i tot les coordenades GPS d'una lliurament. Segons la LOPDGDD 3/2018, tenim l'obligació de custòdia. Imagineu que un albarà amb l'adreça i el telèfon d'un client VIP acaba volant pel pàrquing per un descuit. Això no és un error de neteja, és una 'Bretxa de Seguretat'. El Pla de l'AEPD ens insta a ser proactius: si veus una dada exposada, actua. La privacitat ha d'estar integrada en el disseny de les nostres tasques, des que carreguem el camió fins que signem el lliurament."
 
-### Escena 3: Módulo 2 - La Cadena de Responsabilidad (Responsables vs. Encargados)
-* **Visual:** Un gráfico dinámico muestra a FoodLogistic en el centro, conectada con una gestoría de nóminas, una empresa de prevención de riesgos y un proveedor de software en la nube (SaaS).
-* **Diálogo:** > "FoodLogistic es el Responsable del Tratamiento, pero no estamos solos. Trabajamos con Encargados. El Artículo 28 del RGPD, reforzado por el Plan 2025, exige que estas alianzas sean seguras. Si nuestra gestoría externa sufre un incidente de seguridad y no tenemos un contrato de encargo sólido que defina sus obligaciones, la AEPD nos considerará responsables a nosotros por falta de diligencia en la elección. Debemos realizar auditorías periódicas y exigir que nuestros proveedores cumplan con los mismos estándares de excelencia técnica que nosotros aplicamos."
+### Escena 3: Mòdul 2 - Ciberhigiene i la "Fortalesa del Lloc de Treball"
+* **Visual:** El presentador s'asseu en una oficina de control d'estoc. Enfocament en un teclat i un monitor.
+* **Diàleg:** > "Parlem de la nostra primera línia de defensa. L'AEPD parla d'una 'Agència Intel·ligent', i nosaltres hem de ser un 'Equip Intel·ligent'. El vostre ordinador és una porta d'entrada a tota la xarxa de FoodLogistic. El comandament **Windows + L** és el vostre millor aliat; bloquegeu la sessió encara que només aneu a buscar un cafè. I sobre les contrasenyes: el Pla 2025 promou la seguretat tècnica avançada. Oblideu el nom del vostre gos o dates de naixement. Creeu 'frases de pas'. Per exemple: **OnEsElMeuPalet2026?**. És llarga, segura i fàcil de recordar. I si us plau, res de post-its enganxats al monitor. La seguretat és invisible, però les seves conseqüències no ho són."
 
-### Escena 4: Módulo 3 - Derechos de los Trabajadores y el Bloqueo de Datos
-* **Visual:** El presentador explica un flujo de trabajo sobre una solicitud de "Derecho al Olvido".
-* **Diálogo:** > "Cuando un empleado ejerce sus derechos (acceso, rectificación, supresión), tenemos 30 días para responder. Pero cuidado con el 'Derecho al Olvido' en el ámbito laboral. No podemos borrar una nómina al instante solo porque el empleado lo pida, ya que tenemos obligaciones legales con Hacienda y la Seguridad Social. Aquí entra el concepto de Bloqueo de Datos: la información se aparta del sistema ordinario, se protege contra cualquier acceso, pero se conserva por si una autoridad la reclama. Es una gestión fina que requiere conocer bien los plazos de prescripción legal."
+### Escena 4: Mòdul 3 - La Gestió del Suport Físic (El Cicle del Paper)
+* **Visual:** El presentador mostra la safata de 'sortida' d'una impressora comuna. Després es dirigeix a una trituradora de alta seguretat.
+* **Diàleg:** > "La zona d'impressores sol ser el punt més feble. Imprimir documents amb dades sensibles i deixar-los allà durant hores és una negligència que l'AEPD sanciona amb severitat. Si imprimiu, recolliu el paper immediatament. I quan aquest document ja no té valor operatiu —com un llistat de rutes del dia anterior—, no va a la paperera. Va a la **trituradora de seguretat P4**. L'objectiu és que la informació sigui irrecuperable. El Pla 2025-2030 fa èmfasi en la 'supervisió sistemàtica': no n'hi ha prou amb fer-ho bé avui, cal fer-ho bé sempre."
 
-### Escena 5: Módulo 4 - El Desafío de la IA y la Innovación con Garantías
-* **Visual:** Iconos de inteligencia artificial y algoritmos de cribado de CVs. Aparece el término "EIPD" (Evaluación de Impacto).
-* **Diálogo:** > "El Eje 2 del Plan Estratégico de la AEPD se centra en la 'Innovación tecnológica con garantías'. Si en FoodLogistic decidimos usar algoritmos para evaluar el desempeño o IA para filtrar currículos, debemos realizar obligatoriamente una Evaluación de Impacto (EIPD). Debemos asegurar que el algoritmo no sea discriminatorio y que siempre haya una intervención humana en las decisiones importantes. La innovación es bienvenida, pero solo si es Innovación Responsable que respete la autonomía del trabajador."
+### Escena 5: Mòdul 4 - Dispositius Externs i Amenaces Digitals
+* **Visual:** Un camió arriba i un conductor extern li ofereix un USB a l'administratiu. L'administratiu s'hi nega amablement i assenyala un cartell de "Protocol de Seguretat".
+* **Diàleg:** > "Aquesta escena ocorre diàriament. Un proveïdor us demana connectar el seu USB 'només un segon'. Sota el nou marc de ciberseguretat, això és una línia vermella. Un USB desconegut pot contenir malware que xifri els nostres servidors en segons, paralitzant la logística de tota la regió. L'AEPD ens demana una cultura de 'Prevenció'. Utilitzeu sempre els canals oficials: correu corporatiu o el nostre núvol protegit. Si no és un dispositiu verificat per FoodLogistic, no té lloc en els nostres equips."
 
-### Escena 6: Cierre - Cultura de Cumplimiento y Canal del DPD
-* **Visual:** El presentador muestra un acceso directo en la intranet titulado "Canal del Delegado de Protección de Datos".
-* **Diálogo:** > "La protección de datos es un proceso de mejora continua. Contamos con la figura del Delegado de Protección de Datos (DPD) para asesorarnos en cada paso. No dudéis en consultar antes de implementar cualquier proceso nuevo. La excelencia técnica y la calidad en el tratamiento de la información son lo que nos diferencia como empresa líder. Tenéis los manuales detallados y el test de evaluación en la intranet. Gracias por vuestra dedicación a hacer de FoodLogistic un referente de ética digital."
+### Escena 6: Conclusió i Compromís amb l'Excel·lència
+* **Visual:** El presentador s'uneix a un grup de treballadors amb armilles reflectants.
+* **Diàleg:** > "La protecció de dades a FoodLogistic és una tasca d'equip. No és una cosa que només importi al departament legal; importa aquí, entre caixes i camions. Complir amb el Pla Estratègic de l'AEPD ens fa una empresa més robusta, més moderna i més respectuosa. En acabar aquest vídeo, trobareu un test de validació. No és només un examen, és el vostre compromís amb la seguretat de tots. Gràcies per la vostra professionalitat!"
 
 ---
-> [!TIP]
-> **Nota técnica:** Este documento utiliza formato Markdown estándar compatible con GitHub, GitLab y Bitbucket.
+
+## 📽️ Vídeo 2: Protecció de dades en RRHH i Gestió
+**Públic objectiu:** 💼 Personal administratiu i comandaments intermedis.
+
+### Escena 1: Introducció - Supervisió Intel·ligent i Ètica
+* **Visual:** Oficina de RRHH. El presentador davant d'un monitor amb gràfics de compliment.
+* **Diàleg:** > "Benvinguts a aquest mòdul especialitzat. En els departaments de gestió, som els depositaris de la informació més sensible de la companyia: nòmines, baixes mèdiques, contractes i valoracions d'acompliment. El Pla Estratègic 2025-2030 de l'AEPD introdueix el concepte d'Administració Eficaç' i 'Supervisió Intel·ligent'. Ja no es tracta només de complir la llei, sinó de liderar amb l'exemple. La nostra gestió ha de ser proactiva: hem de detectar el risc abans que es converteixi en una infracció."
+
+### Escena 2: Mòdul 1 - El Cicle de Vida del Talent i la Privacitat des del Disseny
+* **Visual:** El presentador revisa una plataforma de reclutament digital.
+* **Diàleg:** > "Com tractem aquells que volen treballar amb nosaltres? El principi de 'Privacitat des del Disseny' significa que les nostres eines han de protegir el candidat des del minut u. Rebre CVs per canals no oficials, com xarxes socials privades o serveis de missatgeria, trenca la traçabilitat del consentiment. Segons les noves directrius, hem de centralitzar-ho tot en el nostre portal oficial i aplicar polítiques de retenció estrictes. Un candidat no ha estat seleccionat? La seva dada té data de caducitat: 2 anys màxim, a menys que hi hagi una base legal diferent. La purga de dades no és només neteja, és compliment del dret de supressió."
+
+### Escena 3: Mòdul 2 - La Cadena de Responsabilitat (Responsables vs. Encarregats)
+* **Visual:** Gràfic dinàmic: FoodLogistic -> Gestoria -> Empresa de riscos -> SaaS.
+* **Diàleg:** > "FoodLogistic és el Responsable del Tractament, però no estem sols. Treballem amb Encarregats. L'Article 28 del RGPD, reforçat pel Pla 2025, exigeix que aquestes aliances siguin segures. Si la nostra gestoria externa pateix un incident de seguretat i no tenim un contracte d'encàrrec sòlid que defineixi les seves obligacions, l'AEPD ens considerarà responsables a nosaltres per falta de diligència en l'elecció. Hem de realitzar auditories periòdiques i exigir que els nostres proveïdors compleixin els mateixos estàndards d'excel·lència tècnica que nosaltres apliquem."
+
+### Escena 4: Mòdul 3 - Drets dels Treballadors i el Bloqueig de Dades
+* **Visual:** Flux de treball sobre una sol·licitud de "Dret a l'Oblit".
+* **Diàleg:** > "Quan un empleat exerceix els seus drets (accés, rectificació, supressió), tenim 30 dies per respondre. Però atenció amb el 'Dret a l'Oblit' en l'àmbit laboral. No podem esborrar una nòmina a l'instant només perquè l'empleat ho demani, ja que tenim obligacions legals amb Hisenda i la Seguretat Social. Aquí entra el concepte de Bloqueig de Dades: la informació s'aparta del sistema ordinari, es protegeix contra qualsevol accés, però es conserva per si una autoritat la reclama. És una gestió fina que requereix conèixer bé els terminis de prescripció legal."
+
+### Escena 5: Mòdul 4 - El Desafiament de la IA i la Innovació amb Garanties
+* **Visual:** Icones d'IA i cribratge de CVs. Apareix el terme **EIPD** (Avaluació d'Impacte).
+* **Diàleg:** > "L'Eix 2 del Pla Estratègic de l'AEPD se centra en la 'Innovació tecnològica amb garanties'. Si a FoodLogistic decidim usar algorismes per avaluar l'acompliment o IA per filtrar currículums, hem de realitzar obligatòriament una Avaluació d'Impacte (EIPD). Hem d'assegurar que l'algorisme no sigui discriminatori i que sempre hi hagi una intervenció humana en les decisions importants. La innovació és benvinguda, però només si es tracta d'Innovació Responsable que respecti l'autonomia del treballador."
+
+### Escena 6: Tancament - Cultura de Compliment i Canal del DPD
+* **Visual:** Accés directe a la intranet: **"Canal del Delegat de Protecció de Dades"**.
+* **Diàleg:** > "La protecció de dades és un procés de millora contínua. Comptem amb la figura del Delegat de Protecció de Dades (DPD) per assessorar-nos en cada pas. No dubteu a consultar abans d'implementar qualsevol procés nou. L'excel·lència tècnica i la qualitat en el tractament de la informació són el que ens diferencia com a empresa líder. Tenir els manuals detallats i el test d'avaluació a la intranet. Gràcies per la vostra dedicació a fer de FoodLogistic un referent d'ètica digital."
