@@ -26,7 +26,7 @@ Hem seleccionat aquestes tres empreses amb seu física a la ciutat:
 
 Hem definit l'estructura jeràrquica d'una empresa de serveis informàtics mitjana de Mataró (com podria ser Main o Ilimit ja que aquestas dades no son publiques).
 
-<img width="906" height="453" alt="image" src="https://github.com/user-attachments/assets/4f40123a-0d66-465a-abe4-43aa5c8e95fd" />
+<img width="906" height="453" alt="image" src="https://github.com/classesSMX2n/projecte-7-samalluis/blob/main/T01/pics/unnamed.png" />
 
 #### Fragment de codi UML
 ```
