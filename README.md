@@ -6,7 +6,7 @@
 
 ## Autor
 
-Nom: [Escriu el teu nom aquí]
+Nom: Lluís García Martínez
 
 Formant grups de treball: [Escriu els noms dels membres del grup aquí]
 
