@@ -1,58 +1,49 @@
-# 💰 Memòria Econòmica: Projecte de Modernització Tecnològica
-**Client:** FoodLogístic S.A.  
-**Empresa de Serveis:** [Nom de la vostra empresa]  
-**Data:** 14 d'abril de 2024  
+# T10: Pressupost del Projecte - Modernització de Sistemes
+
+En aquest apartat es detalla la proposta econòmica presentada a **FoodLogístic S.A.** per a la implementació i manteniment de la nova infraestructura tecnològica. Com a empresa de serveis informàtics, el nostre objectiu és oferir una solució transparent que garanteixi la viabilitat i el rigor professional del projecte.
 
 ---
 
-## 1. Introducció
-Aquesta proposta econòmica detalla la inversió necessària per a la transformació digital de **FoodLogístic S.A.** El pressupost se centra a oferir una solució d'alta disponibilitat, migració a serveis al núvol (SaaS) i compliment normatiu, garantint la viabilitat i escalabilitat del negoci.
+## 1. Memòria Econòmica
 
----
+La següent memòria detalla els costos dividits en inversió inicial (implantació) i costos operatius (recurrents).
 
-## 2. Pressupost d'Implantació (Pagament Únic)
-Aquest apartat inclou tots els costos inicials de configuració, adquisició de maquinari/programari i la mà d'obra especialitzada.
+### 1.1. Càlcul del Cost d'Implantació (Pagament Únic)
+Aquest apartat inclou la posada en marxa, adquisició d'actius i la mà d'obra especialitzada.
 
-### 2.1 Maquinari i Programari
-| Concepte | Descripció | Quantitat | Preu Unitari | Total |
+| Concepte | Descripció | Unitats | Preu/Unitat | Total |
 | :--- | :--- | :---: | :---: | :---: |
-| Servidors Físics/Virtuals | Infraestructura per a Alta Disponibilitat (Àrea 1) | 2 | 0,00€ | 0,00€ |
-| Llicències Inicials | Llicències de S.O. o Software específic | 1 | 0,00€ | 0,00€ |
-| **Total Maquinari/Programari** | | | | **0,00€** |
+| **Maquinari i Programari** | Servidors físics/virtuals (Alta Disponibilitat - Àrea 1) | 2 | 0,00€ | 0,00€ |
+| **Llicències d'Inici** | Llicències de programari base i activació | 1 | 0,00€ | 0,00€ |
+| **Honoraris: Alta Disponibilitat** | Muntatge i configuració de servidors (Àrea 1) | 0h | 0,00€/h | 0,00€ |
+| **Honoraris: Migració Núvol** | Configuració i traspàs de dades | 0h | 0,00€/h | 0,00€ |
+| **Honoraris: Formació LOPD** | Elaboració de vídeo formatiu i documentació | 0h | 0,00€/h | 0,00€ |
+| **Honoraris: Disseny Web** | Disseny i desenvolupament de la nova pàgina web | 0h | 0,00€/h | 0,00€ |
+| **TOTAL IMPLANTACIÓ** | | | | **0,00€** |
 
-### 2.2 Honoraris Professional (Mà d'obra)
-| Tasca | Descripció | Hores Estimades | Preu/Hora | Total |
+### 1.2. Costos Recurrents (Manteniment i Subscripcions)
+Costos operatius necessaris per al funcionament continu dels serveis.
+
+| Servei | Detall | Periodicitat | Cost Unitari | Total (Mes) |
 | :--- | :--- | :---: | :---: | :---: |
-| **Àrea 1** | Muntatge servidors Alta Disponibilitat | 0h | 00€ | 0,00€ |
-| **Àrea 2** | Migració al Núvol (SaaS) | 0h | 00€ | 0,00€ |
-| **Àrea 3** | Elaboració vídeo formatiu LOPD | 0h | 00€ | 0,00€ |
-| **Àrea 4** | Disseny i desenvolupament Web (Landing) | 0h | 00€ | 0,00€ |
-| **Total Honoraris** | | **0h** | | **0,00€** |
+| **Plataformes SaaS** | Llicències (M365/Google Workspace) per usuari | Mensual | 0,00€ | 0,00€ |
+| **Allotjament (Hosting)** | Hosting per a la landing page | Anual | 0,00€ | 0,00€ |
+| **Domini** | Registre de domini corporatiu (.com / .es) | Anual | 0,00€ | 0,00€ |
+| **Suport i Seguretat** | Còpies de seguretat i actualitzacions preventives | Mensual | 0,00€ | 0,00€ |
+| **TOTAL MANTENIMENT** | | | | **0,00€** |
 
 ---
 
-## 3. Costos Recurrents (Manteniment i Subscripcions)
-Costos operatius mensuals per garantir la continuïtat del servei.
+## 2. Justificació de la Proposta
 
-| Servei | Detall | Cost Mensual | Cost Anual |
-| :--- | :--- | :---: | :---: |
-| **Plataforma SaaS** | Microsoft 365 / Google Workspace (X usuaris) | 0,00€ | 0,00€ |
-| **Allotjament i Domini** | Hosting Landing Page + Domini .com/.es | 0,00€ | 0,00€ |
-| **Suport Tècnic** | Manteniment preventiu i seguretat | 0,00€ | 0,00€ |
-| **TOTAL RECURRENT** | | **0,00€** | **0,00€** |
+### Estudi del Preu de Mercat
+Per determinar els honoraris tècnics, s'ha realitzat una investigació del mercat actual de consultoria informàtica:
+* **Referència de preus:** S'ha establert un preu mitjà de `X€/hora` basat en [Font/Referència, p. ex. convenis del sector o mitjanes de freelance].
+* **Criteri d'assignació:** Les hores s'han calculat segons la complexitat tècnica de cada àrea, prioritzant l'estabilitat dels sistemes d'alta disponibilitat.
 
----
-
-## 4. Justificació de la Proposta
-
-### 4.1 Metodologia de Preus
-Hem establert un preu per hora de **XX€/h**, basant-nos en l'estudi de mercat actual per a consultors informàtics junior/senior a la zona de [La teva localitat]. Aquest preu inclou no només l'execució, sinó també la fase de planificació i proves de qualitat.
-
-### 4.2 Elecció de Plataformes
-* **SaaS:** S'ha triat el pla [Nom del Pla] de [Google/Microsoft] perquè ofereix el millor equilibri entre seguretat de dades i eines de col·laboració per al volum d'usuaris de FoodLogístic S.A.
-* **Infraestructura:** El model de preus triat garanteix que el client només pagui pel que necessita, permetent ampliar els recursos de manera elàstica en el futur.
+### Selecció de Models de Preu
+* **Model SaaS:** S'ha triat el pla [Nom del Pla, p. ex. Business Standard] per permetre l'escalabilitat de FoodLogístic S.A. i garantir eines de col·laboració en temps real.
+* **Hosting i Manteniment:** Hem optat per un model de quota mensual de suport per garantir que el client s'oblidi de les incidències tècniques i es pugui centrar en el seu negoci ("tranquil·litat i temps").
 
 ---
-
-> [!IMPORTANT]
-> Aquest pressupost té una validesa de 30 dies naturals des de la data d'emissió.
+> **Nota del projecte:** Aquest pressupost té una validesa de 30 dies des de la seva publicació al repositori.
