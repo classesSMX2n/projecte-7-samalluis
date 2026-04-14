@@ -1,57 +1,36 @@
-# T07: Migrant al Cloud - Proposta de Modernització Digital
+# T07: Migrant al cloud
 
-## 📝 Descripció del Projecte
-L'empresa **FoodLogistic**, amb una plantilla de 35 treballadors, requereix una actualització crítica de la seva infraestructura de comunicació. Actualment depenen d'un servei de hosting antiquat i limitat. Aquest document presenta l'estudi de mercat i la proposta tècnica per a la migració a una solució col·laborativa integral al núvol.
+## Breu descripció
+### Introducció al cas
+A més de l’actualització de la seva infraestructura “FoodLogistic” necessita modernitzar també la comunicació i la col·laboració online. Actualment, amb una plantilla de **35 treballadors**, vol canviar el seu servidor de correu, actualment externalitzat a un servei de hosting. El servei s’ha quedat antiquat, presenta problemes de seguretat i està limitat únicament al correu electrònic.
 
----
-
-## 🔍 Anàlisi d'Alternatives
-S'han seleccionat quatre dels proveïdors més robustos del mercat actual per avaluar la seva viabilitat segons les necessitats de FoodLogistic.
-
-1.  **Microsoft 365 (Business Basic/Standard):** La solució líder en entorns corporatius amb integració total de l'ecosistema Office.
-2.  **Google Workspace (Business Starter/Standard):** Enfocat a la col·laboració en temps real i simplicitat d'ús.
-3.  **Zoho Workplace:** Una alternativa altament competitiva en cost amb una suite d'oficina molt completa.
-4.  **Lark Suite:** Una plataforma emergent "tot en un" que prioritza la comunicació interna i la gestió de projectes.
+L'objectiu d'aquesta activitat és investigar i avaluar diferents solucions de correu electrònic corporatiu al mercat per elaborar una proposta comercial i tècnica professional que resolgui els problemes del client, equilibrant funcionalitats, seguretat i pressupost.
 
 ---
 
-## 📊 Comparativa de Característiques (PIMES)
+## Descripció de l’activitat
+Cal que feu un estudi de mercat i preparar una proposta integral pel client, seguint aquestes passes:
 
-A continuació es presenta la comparativa detallada de les tres opcions principals:
+### 1. Anàlisi d'alternatives
+Heu de buscar, a través d'Internet, un mínim de quatre proveïdors de serveis de correu corporatiu (per exemple: Microsoft 365, Google Workspace, Zoho WorkPlace, Lark, etc.).
 
-| Característica | Microsoft 365 (Business Basic) | Google Workspace (Starter) | Zoho Workplace (Standard) |
-| :--- | :--- | :--- | :--- |
-| **Cost mensual (usuari)** | ~5,60 € | ~5,75 € | ~3,00 € |
-| **Emmagatzematge** | 50 GB Correu / 1 TB Cloud | 30 GB compartit | 30 GB Correu / 10 GB Cloud |
-| **Eines de Col·laboració** | Teams, Word, Excel, SharePoint | Meet, Docs, Sheets, Drive | Click, Writer, Show, Sheet |
-| **Seguretat** | Defonse per a Office 365, MFA | Encriptació AES-256, 2SV | Xifrat en repòs i trànsit |
-| **Videotrucades** | Fins a 300 participants | Fins a 100 participants | Fins a 100 participants |
+### 2. Comparativa de característiques
+Per a cada alternativa, avalueu els plans orientats a petites i mitjanes empreses (PIMES). Caldria investigar i comparar:
+* Cost per usuari/mes i cost anual (si inclou descomptes).
+* Capacitat d'emmagatzematge de la bústia i al núvol.
+* Mesures de seguretat informàtica.
+* Eines col·laboratives addicionals (calendaris compartits, xat, videotrucades, eines ofimàtiques).
 
----
+### 3. Càlcul de costos i implantació
+Un cop feta la comparativa, heu de triar la millor opció per als 35 empleats de l'empresa. 
+* Calcular el cost anual de les llicències. 
+* Investigar eines que permetin la migració de comptes de correu d’una forma senzilla.
 
-## 💡 Proposta Escollida: Microsoft 365 Business Basic
+### 4. Redacció de la proposta
+Un document simulant un dossier comercial que ha d’incloure obligatòriament els següents apartats:
 
-### Justificació Tècnica
-Després d'avaluar les necessitats de **FoodLogistic**, s'ha determinat que **Microsoft 365** és l'opció més eficient per les següents raons:
-
-* **Seguretat de Grau Empresarial:** Inclou autenticació multifactor (MFA) i protecció contra programari maliciós avançat, resolent els problemes de seguretat actuals.
-* **Capacitat d'Emmagatzematge:** L'oferta de **1 TB** per usuari en OneDrive supera amb escreix la competència, permetent una digitalització total de documents sense preocupacions d'espai.
-* **Estandardització:** La compatibilitat amb fitxers Office garanteix que la comunicació amb clients i proveïdors externs sigui fluida i sense errors de format.
-
-> **Eina de Migració Recomanada:** S'utilitzarà l'eina nativa **Microsoft 365 Migration Manager**, que permet traspassar el correu IMAP del hosting actual de forma automatitzada i sense pèrdua de dades.
-
----
-
-## 💰 Pressupost Desglossat
-
-Càlcul realitzat per a la plantilla total de **35 empleats**.
-
-| Concepte | Unitats | Cost Unitari (Mes) | Cost Total (Anual) |
-| :--- | :---: | :---: | :---: |
-| Llicència Microsoft 365 Business Basic | 35 | 5,60 € | 2.352,00 € |
-| **TOTAL RECORRENT ANUAL** | | | **2.352,00 €** |
-
-*Nota: Els preus són aproximats i poden variar segons les promocions vigents de Microsoft o la contractació a través d'un Partner local.*
-
----
-📅 *Data de la proposta: Abril 2024* 🏢 *Elaborat per: Equip Tècnic de Sistemes*
+| Apartat | Contingut requerit |
+| :--- | :--- |
+| **Comparativa** | Breu descripció de cadascun dels serveis candidats incloent una taula on es faci una comparativa de les tres opcions. |
+| **Justificació tècnica** | Text adreçat als responsables de l’empresa justificant perquè l’alternativa escollida és la més segura i eficient. |
+| **Pressupost desglossat** | Una taula econòmica on es mostri el cost de les llicències de programari indicant clarament els costos recurrents. |
