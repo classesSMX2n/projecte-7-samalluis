@@ -1,51 +1,60 @@
-# Propuesta Tecnológica: Comparativa de Soluciones Cloud
+# Proposta Tècnica i Comercial: Modernització Digital FoodLogistic
 
-## 1. Comparativa de Soluciones (PIMES y Enterprise)
+## 1. Resum i Objectius Estratègics
 
-| Característica | Microsoft 365 (Business Standard) | Google Workspace (Business Standard) | Zoho Workplace (Professional) | Lark Suite (Pro) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Enfoque Principal** | Productividad y aplicaciones locales (Excel/Word). | Colaboración nativa en la nube y agilidad. | Privacidad, bajo coste y ecosistema propio. | Super-app "todo en uno" (Chat/Docs/Base). |
-| **Almacenamiento** | 50 GB Mail + 1 TB OneDrive. | 2 TB compartidos por usuario. | 100 GB Mail + 100 GB Drive. | 1 TB de almacenamiento total. |
-| **Seguridad** | Muy alta (Políticas de grupo, Defender). | Muy alta (IA contra phishing, Zero Trust). | Alta (Cifrado en reposo y tránsito). | Estándares internacionales (SOC2, ISO). |
-| **Escalabilidad** | Excelente (Hasta 300 usuarios en Business, ilimitado en Enterprise). | Excelente (Cambio de plan fluido a Enterprise). | Media (Ideal para ahorro, pero menos integraciones externas). | Alta (Muy flexible para equipos dinámicos). |
+FoodLogistic requereix la modernització de la seva infraestructura (35 usuaris) per resoldre la inseguretat i ineficiència del hosting actual. Els objectius clau són:
 
----
+Escalabilitat total: garantir operativa sense bloquejos per espai en els propers 10 anys.
+Ciberseguretat activa: blindar el domini per evitar suplantacions d’identitat.
+Entorn col·laboratiu: integració de xat, videoconferències i edició en temps real.
 
-## 2. Justificación Técnica: ¿Cuál es el mejor de todos?
+## 2. Anàlisi del Mercat
 
-Tras analizar los datos, la recomendación técnica definitiva para **FoodLogistic** es **Google Workspace Business Standard**.
+Microsoft 365: referent en control documental i emmagatzematge massiu.
+Google Workspace: agilitat i treball nadiu en navegador sense dependència local.
+Zoho Workplace: suite integrada amb una ràtio de cost altament competitiva.
+Lark Suite: plataforma "tot en un" emergent amb forta gestió de projectes.
 
-### ¿Por qué es la mejor opción frente a los demás?
+## 3. Comparativa Tècnica de Solucions
 
-* **Escalabilidad sin fricción:** A diferencia de Microsoft, donde la gestión de licencias de escritorio y versiones puede ser compleja, Google permite escalar de 35 a 350 empleados con un solo clic. Su consola de administración es la más intuitiva del mercado.
-* **Seguridad nativa en la nube:** Al no depender de archivos locales (`.exe`), el riesgo de que un empleado de FoodLogistic descargue un virus que afecte a la red corporativa es casi nulo. Todo sucede en el navegador.
-* **Colaboración en tiempo real:** Para una empresa logística, la velocidad es clave. La capacidad de que 10 personas editen una hoja de ruta al mismo tiempo en *Sheets* sin conflictos de versiones es superior a la experiencia de co-autoría de Microsoft.
-* **Migración sencilla:** Google ofrece la herramienta *Google Workspace Migration for Microsoft Outlook* (GWMMO) y servicios de migración de datos IMAP integrados que facilitan la transición desde el hosting antiguo de forma automatizada.
+| Paràmetre tècnic | Microsoft 365 Basic | Google Workspace Starter | Zoho Workplace Standard |
+|---|---:|---:|---:|
+| Emmagatzematge | 1.074 GB | 30 GB | 40 GB |
+| Cost llicència | 5,60 € | 5,75 € | 3,00 € |
+| Seguretat | Entra ID / AES-256 | Zero Trust / TLS | 2FA / xifrat |
 
----
+## 4. Justificació de la Decisió i Descarts de Competidors
 
-## 3. Presupuesto y Análisis de Costes (Escenario 35 usuarios)
+Es recomana Microsoft 365 Business Basic per la seva superioritat tècnica absoluta:
 
-> **Nota:** He seleccionado el pago anual, ya que suele ofrecer un ahorro de aproximadamente el **20%** frente al pago mensual.
+Descart de Zoho: ineficiència d’espai i alta fricció en formats Excel que trenquen macros logístiques.
+Descart de Google: la pitjor ràtio d’inversió; Microsoft entrega 35,8 vegades més espai per un preu menor.
+Capacitat inigualable: 1.074 GB totals que eliminen qualsevol restricció d’espai a llarg termini.
+Estandardització: interoperabilitat total amb el sector logístic gràcies a l’ús natiu d’Excel i Word.
 
-| Concepto | Coste por Usuario/Mes (Anual) | Coste Total Anual (35 usuarios) |
-| :--- | :--- | :--- |
-| **Google Workspace Business Standard** | ~9,36 €* | **3.931,20 €** |
-| Microsoft 365 Business Standard | 11,70 € | 4.914,00 € |
-| Zoho Workplace Professional | 6,00 € | 2.520,00 € |
-| Lark Suite Pro | ~$12.00 | ~$5.040,00 |
+## 5. Arquitectura de Seguretat Microsoft
 
-*\*Nota: Los precios de Google pueden variar según promociones regionales o acuerdos con partners.*
+La solució inclou un blindatge professional superior a la competència:
 
----
+Entra ID: gestió d’identitat professional per al control total d’accessos.
+Cifratge AES-256: protecció de dades en repòs i trànsit per a tota la logística.
+Higiene de domini: configuració SPF i DKIM per garantir l’entrega de correu.
+Protocol DMARC: bloqueig de suplantacions d’identitat, estàndard 2026.
 
-## Conclusión de la Propuesta Comercial
+## 6. Pressupost Global Consolidat (TCO)
 
-Para **FoodLogistic**, la opción de Zoho es la más económica, pero si pensamos en el futuro y en atraer talento que ya sabe usar herramientas modernas, **Google Workspace Business Standard es la inversión más inteligente.**
+| Concepte | Any 1 (Activació + Llicències) | Any 2 i posteriors (Recurrent) |
+|---|---:|---:|
+| Llicències (35 usuaris) | 2.352,00 € | 2.352,00 € |
+| Implementació i migració | 450,00 € | 0,00 € |
+| TOTAL | 2.802,00 € | 2.352,00 € / any |
 
-Ofrece el equilibrio perfecto:
-1.  **2 TB de espacio:** Suficiente para años de facturas y albaranes.
-2.  **Seguridad de nivel bancario.**
-3.  **Eficiencia operativa:** Plataforma que no requiere que el departamento de IT pierda horas instalando software en cada ordenador.
+Nota: inversió blindada contra la inflació de dades gràcies a la capacitat d’1 TB per usuari.
 
-**Siguiente paso recomendado:** Iniciar una prueba gratuita.
+## 7. Metodologia de Migració
+
+Es farà servir el Servei de Migració d’Exchange (EAC) mitjançant el protocol IMAP per garantir la persistència de l’historial i les carpetes.
+
+Fases: auditoria, sincronització en segon pla i validació final d’integritat.
+Seguretat DNS: implementació de SPF, DKIM i DMARC inclosa en el desplegament.
+Limitació: el protocol IMAP no migra calendaris o contactes locals; aquests requeriran importació manual.
