@@ -8,7 +8,7 @@
 
 Nom: Lluís García Martínez
 
-Formant grups de treball: Albert Teruel, Joel Dominguez, Lluís Garcia.
+Formant grups de treball: Albert Teruel, Joel Dominguez, Lluís García.
 
 ## Descripció del projecte
 
