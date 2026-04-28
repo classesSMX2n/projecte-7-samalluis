@@ -8,7 +8,7 @@
 
 Nom: Lluís García Martínez
 
-Formant grups de treball: [Escriu els noms dels membres del grup aquí]
+Formant grups de treball: Albert Teruel, Joel Dominguez, Lluís García.
 
 ## Descripció del projecte
 
