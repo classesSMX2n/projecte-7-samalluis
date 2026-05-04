@@ -12,7 +12,7 @@ Aquesta tasca és una evolució de la **T02**, on es requereix adaptar la landin
 ### 🚀 Accés al Projecte
 Pots visualitzar la web desplegada i completament funcional a través del següent enllaç:
 
-🔗 **https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site(ESCRIU_AQUÍ_EL_TEU_ENLLAÇ)**
+🔗 [https://samalluis.github.io/web-corporativa/](https://samalluis.github.io/web-corporativa/)
 
 ---
 
