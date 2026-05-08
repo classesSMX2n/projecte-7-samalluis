@@ -1,292 +1,182 @@
+# **P01 Memòria Tècnica De La Proposta**
 
-# Memòria del Projecte: Renovació Tecnològica FoodLogístics S.A.
+# 1. Introducció
 
-## 1. Introducció
+![](img/FoodLogisticLogo.png)
 
-Aquest projecte s'ha desenvolupat per respondre a les necessitats de **FoodLogístics S.A.**, una empresa de logística ubicada al Maresme que requereix una renovació integral de la seva infraestructura informàtica per adaptar-se als estàndards actuals i al marc legal vigent. 
+Aquesta memòria tècnica presenta la nostra proposta completa per modernitzar els sistemes informàtics de FoodLogistic S.A. Aquesta és una empresa molt coneguda de distribució i logística d'aliments que té la seu a Mataró. Com que darrerament han obert noves rutes i han contractat més personal, la quantitat de dades i les necessitats de comunicació que tenen han crescut moltíssim. 
 
-### Contextualització
-En l'entorn empresarial actual, disposar de sistemes operatius eficients i segurs és fonamental per garantir la continuïtat del negoci. Després d'una auditoria dels sistemes actuals, s'han detectat les següents mancances crítiques:
+El problema principal que tenen ara mateix és que la infraestructura informàtica se'ls ha quedat petita. Això fa que tinguin problemes de seguretat i corrin el risc que el negoci s'hagi d'aturar de cop. Per donar-los una solució, hem dissenyat un pla d'acció que es divideix en quatre parts molt clares:
 
-* **Obsolescència tecnològica:** Infraestructura de maquinari i programari desactualitzada.
-* **Inestabilitat del servei:** Fallades recurrents en el sistema de correu electrònic.
-* **Manca de redundància:** Absència de sistemes de seguretat o alta disponibilitat en els servidors, cosa que posa en risc la generació d'albarans i etiquetatge, podent aturar tota la cadena logística.
-* **Incompliment legal:** La pàgina web actual no compleix amb la **Llei Orgànica de Protecció de Dades (LOPD)**.
+* Infraestructura i Alta Disponibilitat: Com que no es poden permetre aturar el magatzem, muntarem servidors de fitxers i d'impressió preparats perquè mai deixin de funcionar i puguin imprimir etiquetes i albarans sense interrupcions.
+* Comunicació al Núvol: El servidor de correu intern que fan servir ara falla molt. El que farem serà moure-ho tot a una plataforma al núvol moderna, segura i que a més els donarà eines per treballar millor en equip.
+* Seguretat i Compliment de la LOPD: Amb tanta gent nova a la plantilla, els preocupa el tractament de les dades personals. Crearem vídeos de formació molt pràctics per ensenyar als treballadors com han de tractar les dades de manera segura en el seu dia a dia per complir la llei.
+* Presència a Internet: La web que tenen ara és molt antiga i no compleix les normatives de privacitat actuals. Dissenyarem una pàgina web corporativa nova, moderna i completament legal per donar una bona imatge a internet.
 
-### Objectius del Projecte
-L'objectiu principal d'aquest treball és la implementació d'una infraestructura robusta i moderna basada en:
+![](img/esquema1.png)
 
-1.  **Alta Disponibilitat:** Desplegament d'una xarxa nova amb servidors de fitxers i d'impressió redundants.
-2.  **Migració al Núvol:** Trasllat del servei de correu electrònic a una plataforma cloud.
-3.  **Adequació Normativa:** Correcció de la part legal i tècnica de la presència web.
-4.  **Gestió Centralitzada:** Configuració de polítiques de grup (GPO) per al control de la xarxa.
+# 2. Anàlisi de necessitats
 
-Amb aquesta intervenció, es pretén dotar FoodLogístics S.A. d'un sistema informàtic ràpid, segur i escalable per al futur.
+Després d'estudiar el cas de FoodLogistic S.A. i veure com treballen, ens hem adonat que el seu creixement recent els està passant factura. Han obert noves rutes i han contractat més plantilla, però la informàtica no ha crescut al mateix ritme. Si no fem res, corren el risc de patir aturades greus en la logística i de rebre multes per incomplir la llei. 
 
----
+Per solucionar això de soca-rel, hem dividit les seves necessitats en aquests quatre blocs principals:
 
-## 2. Anàlisi de necessitats
+* Infraestructura i Alta Disponibilitat al magatzem: La prioritat de l'empresa és que els camions puguin sortir a l'hora i no es trenqui mai la cadena de fred. Actualment la informació està desordenada i cada departament guarda les coses on vol. Ens demanen un servidor de fitxers centralitzat i segur, amb límits d'espai per evitar que els treballadors guardin coses personals. A més, necessiten un servidor d'impressió preparat perquè, si una impressora s'encalla traient albarans o etiquetes, l'altra agafi la feina automàticament sense aturar la producció.
 
-A partir de l'auditoria realitzada a **FoodLogístic S.A.**, s'ha determinat que la infraestructura actual presenta un alt grau d'obsolescència i inseguretat, factors crítics tenint en compte el seu volum de negoci actual. 
+* Modernització del correu i treball al núvol: El correu electrònic que tenen ara mateix funciona amb un hosting extern que s'ha quedat molt antic, falla sovint i té problemes de seguretat. Necessiten urgentment passar a un entorn de treball modern al núvol. No només volen un correu que funcioni bé, sinó que necessiten eines col·laboratives per a tota la plantilla, com calendaris compartits, opcions per fer videotrucades i molt més d'espai per treballar en equip de manera més eficient.
 
-A continuació, es detallen els problemes detectats i les propostes de millora tècnica.
+* Formació i compliment de la llei de protecció de dades: Amb tanta gent nova a l'empresa, la direcció té por de patir alguna fuita de dades de clients o treballadors i rebre una multa de l'Agència Espanyola de Protecció de Dades. Ens han demanat eines formatives molt pràctiques, com per exemple vídeos, per ensenyar les bones pràctiques del dia a dia a tota la plantilla. Necessiten que tothom sàpiga com bloquejar la pantalla de l'ordinador, els perills de fer servir pendrives propis, i com s'han de destruir els documents importants o els currículums.
 
-### 2.1. Matriu de Relació Problema-Solució
+* Web corporativa i adequació legal: La presència que tenen a internet ara mateix és molt vella i, el que és pitjor, no compleix la normativa actual. La seva pàgina web necessita una actualització urgent per adaptar-se a les lleis de protecció de dades i de serveis d'internet. Ens demanen dissenyar una web nova que doni una imatge professional i que incorpori tots els elements legals obligatoris, com el banner de galetes, la política de privacitat, l'avís legal i formularis de contacte amb les caselles de consentiment corresponents.
 
-| Problema | Impacte | Solució Proposada |
+| Àrea de millora | Problema actual | Solució necessària |
 | :--- | :--- | :--- |
-| **Infraestructura obsoleta** | Risc de pèrdua de dades i aturades constants del sistema. | Instal·lació de servidors nous en **Alta Disponibilitat (HA)**. |
-| **Hosting de correu inestable** | Talls en la comunicació i pèrdua de correus electrònics. | Migració de 35 bústies a **Microsoft 365 (Cloud)**. |
-| **Falta de seguretat legal** | Possibles sancions de l'AEPD per incompliment de la LOPD-GDD. | Adequació legal de la web (avisos, privacitat i gestió de cookies). |
-| **Punts únics de fallada (SPOF)** | Aturada de la logística si falla la impressora de magatzem. | Configuració de **Printer Pooling** per a impressores redundants. |
-| **Desordre en els fitxers** | Falta de control d'espai i ús indegut per a fitxers personals. | Implementació de **FSRM** amb quotes de disc i filtres de fitxers. |
+| **Infraestructura i Disponibilitat** | Descentralització de la informació i risc d'aturada logística per fallada en la impressió d'albarans. | Servidor de fitxers centralitzat amb quotes de disc i sistema d'impressió amb redundància automàtica. |
+| **Comunicació i Núvol** | Hosting de correu obsolet, inestable i sense eines per al treball col·laboratiu. | Migració a entorn Cloud (SaaS) per a gestió de correu, calendaris compartits i videoconferències. |
+| **Seguretat i LOPD** | Risc de fugues de dades i sancions de l'AEPD per desconeixement de la nova plantilla. | Implementació de càpsules formatives en vídeo sobre gestió documental i ciberseguretat bàsica. |
+| **Presència Digital i Legal** | Web institucional antiga que incompleix la normativa LSSI-CE i el tractament de galetes. | Desenvolupament de nou portal corporatiu amb adequació legal completa i formularis de consentiment. |
 
-### 2.2. Necessitats del client
 
-L'estratègia de renovació s'ha dissenyat sota un horitzó de **10 anys**, centrant-se en tres eixos fonamentals:
+# 3. Proposta de solució
 
-* **Tranquil·litat operativa:** Garantir que el sistema d'emissió d'albarans romangui actiu sense interrupcions.
-* **Seguretat de la informació:** Protecció integral de les dades de treballadors i clients davant filtracions.
-* **Escalabilitat:** Capacitat de creixement orgànic (personal i dades) sense requerir canvis estructurals.
+## 3.1 Infraestructura i Alta Disponibilitat
 
-### 2.3. Requisits tècnics
+Per començar, hem organitzat l'Active Directory sota el domini foodlogistic.test. Hem creat una unitat organitzativa principal anomenada FoodLogistic_OU i a dins l'hem dividit en tres: Administració, Transport i Direcció. Dins d'aquestes unitats hem creat els grups de seguretat G_Administracio, G_Transport i G_Direccio. 
 
-Per donar compliment als objectius fixats, la nova infraestructura ha d'integrar:
+![](img/1.png)
 
-#### Gestió d'Identitat i Accessos
-* **Active Directory:** Domini organitzat mitjançant Unitats Organitzatives (UO) jeràrquiques.
-* **Access-Based Enumeration (ABE):** Visibilitat selectiva de directoris segons els permisos de l'usuari.
+Pel que fa al servidor de fitxers, per organitzar la informació hem creat tres recursos compartits amb nivells de seguretat diferents:
 
-#### Automatització i Control
-* **Polítiques de Grup (GPO):** Mapeig automàtic d'unitats de xarxa i impressores.
-* **FSRM (File Server Resource Manager):** Gestió de quotes i bloqueig d'extensions de fitxers no permesos.
+* Carpeta Public: Està a la ruta C:\Public i tothom hi té accés. Hem posat permisos de lectura per compartir i de modificació a nivell NTFS. Per controlar l'espai, li hem posat una quota estricta de 200 MB amb l'eina FSRM. Quan arriben al 90 per cent de l'espai, el sistema els envia aquest avís exacte: Compte! FoodLogistic t'informa que estàs a punt d'esgotar l'espai compartit.
+* Carpeta Operacions: Està a C:\Operacions i només hi pot entrar el grup G_Transport amb control total. Hem activat l'enumeració basada en l'accés perquè els altres usuaris ni tan sols la vegin. A més, hem aplicat un filtre que prohibeix guardar fitxers executables com .exe o .msi, i també arxius d'àudio o vídeo.
+* Carpeta Direcció: És un recurs ocult exclusiu per al grup G_Direccio. Hem configurat una directiva GPO anomenada Muntatge_Z_Direccio perquè aquesta carpeta s'afegeixi automàticament com a unitat Z: als ordinadors dels caps.
 
-#### Seguretat i Comunicacions
-* **Protecció de correu:** Configuració de protocols **SPF, DKIM i DMARC** per mitigar atacs de *phishing* i assegurar la lliurabilitat.
+Com a mesura de seguretat extra per a tot el servidor, hem activat les quotes NTFS al volum principal amb un límit de 500 MB per a qualsevol usuari nou, amb un avís quan arribin als 450 MB.
 
----
+Per a la part d'impressió d'alta disponibilitat del magatzem, hem creat dues instàncies d'impressora anomenades IMP_MAGATZEM_A i IMP_MAGATZEM_B. A la primera li hem activat la funció de printer pooling i hi hem afegit el port de la segona impressora. Així les dues treballen com si fossin una de sola i es reparteixen la feina.
 
-## 3. Proposta de solució
+Per evitar que els mossos hagin d'instal·lar res a mà, hem creat una directiva anomenada GPO_Impressores_Magatzem que desplega la impressora tota sola als seus ordinadors. Finalment, per seguretat, hem configurat les hores disponibles perquè només puguin imprimir documents entre les 06:00 i les 22:00.
 
-### 3.1 Infraestructura i alta disponibilitat
+![](img/impresoras.png)
 
-Per garantir la continuïtat operativa de **FoodLogístic S.A.**, s'ha dissenyat una infraestructura basada en la redundància de maquinari i la gestió centralitzada mitjançant **Active Directory**. El nucli del sistema el constitueixen dos servidors físics configurats per oferir serveis de fitxers i impressió sense interrupcions.
 
-#### Diagrama d'Arquitectura de Serveis
+## 3.2 Serveis al núvol
 
-```mermaid
-graph TD
-    subgraph "Nodes d'Alta Disponibilitat"
-    S1[Servidor Dell T350 - Node A]
-    S2[Servidor Dell T350 - Node B]
-    end
-    
-    subgraph "Serveis Crítics"
-    AD[Active Directory - OUs]
-    FS[Servidor de Fitxers - ABE/FSRM]
-    PS[Printer Pooling - Impressores]
-    end
+Per solucionar els problemes de seguretat i les limitacions del hosting antic, passarem els 35 treballadors de l'empresa a un entorn de treball col·laboratiu. Hem analitzat diverses opcions com Microsoft 365 Basic, Google Workspace Starter, Zoho Workplace Standard i Lark Suite.
 
-    S1 & S2 --> AD
-    S1 & S2 --> FS
-    S1 & S2 --> PS
-    
-    PS --> Clients[Clients Windows 10/11]
-    FS --> Clients
-    AD --> Clients
-```
+![](img/tabla.png)
 
-### Taula de components de la infraestructura
+La solució que implementarem és Microsoft 365 Business Basic. El motiu és matemàtic: per 5,60 euros al mes per usuari ens ofereix 1074 GB d'espai en total. Vam descartar Google Workspace perquè ens cobrava més diners, 5,75 euros, per només 30 GB d'espai. També vam descartar Zoho perquè la seva incompatibilitat de formats trenca les macros d'Excel, que són diàries i vitals per a la logística de l'empresa.
 
-| Component | Funció Principal | Justificació Tècnica |
-| :--- | :--- | :--- |
-| **Dell PowerEdge T350** | Servidors físics | Maquinari professional per a càrregues de treball 24/7. |
-| **Windows Server 2022** | Sistema Operatiu de xarxa | Gestió oficial de domini, GPOs i serveis FSRM. |
-| **Active Directory** | Gestió d'usuaris i OUs | Organització departamental i delegació de permisos. |
-| **Printer Pooling** | Redundància d'impressió | Desviament automàtic de la cua si una impressora falla. |
+A nivell de seguretat, la solució de Microsoft blinda l'empresa amb la gestió d'identitat d'Entra ID i xifratge AES-256 per protegir les dades. A més, configurarem els protocols SPF, DKIM i DMARC al domini per evitar qualsevol intent de suplantació d'identitat amb els correus.
 
----
+Per fer el pas del correu antic al nou, utilitzarem el Servei de Migració d'Exchange, anomenat EAC, a través del protocol IMAP. Això ens permetrà sincronitzar-ho tot en segon pla sense aturar la feina de l'empresa. L'únic detall que haurem de fer de forma manual és importar els calendaris i contactes locals de cada usuari.
 
-### 3.2 Serveis al núvol
+![](img/financiacion.png)
 
-S'ha realitzat una comparativa de les solucions Cloud per substituir el servei de correu actual de l'empresa (35 bústies), prioritzant capacitat i cost.
+## 3.3 Seguretat i Compliment de la LOPD
 
-#### Taula comparativa de solucions Cloud
+Per resoldre les pors de l'empresa sobre la gestió de dades personals, hem preparat una campanya interna de sensibilització que es diu Dades Segures, Logística Eficient. Concretament, hem creat dos videotutorials formatius d'entre 5 i 6 minuts cadascun, basant-nos en les normes de l'Agència Espanyola de Protecció de Dades i la llei LOPD-GDD 3/2018. 
 
-| Paràmetre | Microsoft 365 Basic | Google Workspace Starter | Zoho Workplace Standard |
-| :--- | :--- | :--- | :--- |
-| **Emmagatzematge** | **1.074 GB (1 TB)** | 30 GB | 40 GB |
-| **Cost mensual/usuari** | 5,60 € | 5,75 € | **3,00 €** |
-| **Seguretat** | Entra ID / AES-256 | Zero Trust / TLS | 2FA / Xifrat |
+El primer vídeo es titula Compliment legal en el dia a dia a FoodLogistic i va dirigit a tots els treballadors de l'empresa, tant del magatzem com de les oficines i transport. En aquest vídeo expliquem conceptes bàsics del dia a dia, com per exemple l'obligació de bloquejar sempre l'ordinador amb les tecles Windows més L i de fer servir contrasenyes segures. També els avisem dels perills de portar pendrives de casa per culpa del programari maliciós, deixant clar que només poden fer servir els que estiguin xifrats pel departament d'informàtica. A més, els ensenyem a no guardar coses de la feina en un Dropbox personal o enviar-les a un Gmail, sinó a les unitats de xarxa compartides de l'empresa com la unitat S o el SharePoint. També els recordem que han de triturar qualsevol paper important en lloc de tirar-lo a la paperera normal i que no han de deixar documents abandonats a la impressora.
 
-**Justificació de la decisió:**  
-S'ha escollit **Microsoft 365 Business Basic** per la seva gran capacitat d'emmagatzematge (36 vegades superior a Google) i la seva compatibilitat total amb les macros d'Excel utilitzades en la logística de l'empresa.
+[Video1](https://drive.google.com/file/d/1vBe5U2yowGJiexheOv4j6LR1lq7HGXYY/view?usp=sharing)
 
----
+El segon vídeo es titula Protecció de dades a RRHH i Gestió i és més tècnic, pensat exclusivament per a l'equip d'administració i recursos humans. Aquí els ensenyem com han de gestionar els currículums, remarcant que els han de destruir en un màxim d'un any si el candidat no és seleccionat. També els expliquem com funciona la cessió de dades a tercers, diferenciant qui és el Responsable del Tractament i qui és l'Encarregat, com per exemple la gestoria que fa les nòmines. Deixem clar que sempre s'ha de tenir un contracte signat segons l'article 28 del RGPD abans d'enviar fitxers. Finalment, incidim en l'obligació de mantenir la confidencialitat segons l'article 5 del RGPD i com han de tramitar de forma molt ràpida les peticions dels drets ARSULIPO, recordant-los que les han de derivar en menys de 24 hores perquè la llei ens dóna només un mes per respondre.
 
-### 3.3 Seguretat i LOPD
+[Video2](https://drive.google.com/file/d/14oRh1KTWVxs_J4lFmYw7j6mP17lGF23r/view)
 
-La seguretat s'articula en tres pilars: protecció de dades al servidor, seguretat de les comunicacions i formació.
+## 3.4 Presència a Internet i adequació legal
 
-#### Mesures de seguretat implementades
-* **Higiene del Domini:** Implementació de registres **SPF, DKIM i DMARC** per mitigar el *phishing*.
-* **Control d'accés (ABE):** Filtrat de carpetes de xarxa segons permisos d'usuari.
-* **Bloqueig de sessió:** Protocol de seguretat física (Windows + L).
-* **Xifratge:** Ús de dispositius USB amb xifratge per a dades físiques.
+Per solucionar el problema de la web antiga i fer que compleixi la llei LOPDGDD i la LSSI-CE, hem dissenyat i publicat una landing page nova. Com vam fer a la tasca 8, ens vam reunir tot l'equip per debatre i consensuar la millor versió de la web corporativa per presentar-la al client com a solució definitiva.
 
-#### Taula resum de seguretat
+La nova web està allotjada a Github Pages perquè sigui totalment operativa i accessible sempre. Tècnicament, hem configurat el repositori perquè llegeixi el codi directament des de la carpeta docs treballant sobre la branca main. Per al disseny hem fet servir HTML5, CSS3 i JavaScript, mantenint la coherència visual amb les fonts corporatives Sora i DM Serif Display. 
 
-| Àmbit | Mesura | Objectiu Legal / Tècnic |
-| :--- | :--- | :--- |
-| **Digital** | Xifratge AES-256 | Protecció de dades en repòs (RGPD). |
-| **Físic** | Política de taules netes | Privacitat davant de visites externes. |
-| **Xarxa** | Quotes FSRM i filtres | Prevenció de saturació i programari maliciós. |
+![](img/CarpetaDocs.png)
 
----
+A més, per tenir analítica i control del tràfic sense molestar a l'usuari, hem integrat StatCounter, que fa de comptador invisible. A les proves de funcionament ja vam poder registrar dades, detectant que les visites es feien des de Google Chrome i que la pàgina d'entrada principal era serveis.html.
 
-### 3.4 Presència web
+![](img/GraficoWeb.png)
 
-La nova presència web es defineix com una *landing page* informativa alineada amb el marc legal vigent.
+La part més crítica ha estat el que vam anomenar Operació Escut Digital a la tasca 6. Ens hem assegurat que la web sigui cent per cent legal redactant, amb el suport de la intel·ligència artificial Claude, tots els textos obligatoris: l'Avís Legal, la Política de Privacitat i la Política de Cookies. També hem implementat el corresponent banner de cookies programat en JavaScript que informa el visitant només entrar.
 
-[URL Pagina Web](https://samalluis.github.io/web-corporativa/#contact)
+![](img/Cookies.png)
 
-![alt text](image-1.png)
+Finalment hem blindat el formulari de contacte, on recollim nom, correu, telèfon i missatge. Hi hem afegit una casella obligatòria i desmarcada per defecte per donar el consentiment a la política de privacitat, i una altra casella opcional per a l'enviament de publicitat. Just a sota hi hem posat la clàusula informativa bàsica per garantir una transparència total.
 
-![alt text](image-2.png)
+![](img/contacta.png)
 
-![alt text](image.png)
+### [Web FoodLogistic](https://classessmx2n.github.io/web-projecte7-AlbertTeruel/)
 
-### Requisits legals integrats
+# 4. Arquitectura i disseny tècnic
 
-*   **Banner de Cookies:** Implementació d'un sistema de gestió de consentiment actiu que permet a l'usuari acceptar o rebutjar les galetes abans de la navegació.
-*   **Checkboxes de Consentiment:** Integració de caselles de verificació desmarcades per defecte en els formularis de contacte, separant l'acceptació de la política de privacitat de la subscripció a comunicacions comercials.
-*   **Textos Legals:** Creació de seccions específiques i accessibles per a l'**Avís Legal**, la **Política de Privacitat** i la **Política de Cookies**, detallant el responsable del tractament de les dades i els terminis de conservació.
+A més de la pàgina web pública, per a FoodLogistic S.A. hem dissenyat l'arquitectura d'una plataforma web interna o intranet. L'objectiu és que tots els treballadors tinguin un portal únic on accedir a tota la informació i fer la seva feina diària de manera centralitzada.
 
----
+La solució proposada per a aquesta intranet està construïda sobre WordPress. Encara que sembli una eina pensada només per fer pàgines web tradicionals, l'hem transformat en un espai de treball privat fent servir diversos connectors (plugins) per afegir-hi tots els serveis necessaris. L'arquitectura tècnica d'aquest portal es divideix en aquestes peces clau:
 
-## 4. Arquitectura i disseny tècnic
+* Portal d'accés segur: Hem creat un sistema on cada treballador s'identifica amb el seu perfil per accedir a la intranet. Així evitem que persones externes puguin veure la informació corporativa.
+* Gestor d'arxius intern: Hem integrat un connector que permet a tots els departaments pujar i compartir documents interns de manera molt fàcil amb la resta de companys.
+* Edició de documents en línia: Hem afegit una extensió perquè la plantilla pugui treballar amb documents online directament des del navegador web, sense haver de descarregar res ni tenir programes extra instal·lats.
+* Correu, calendaris i tasques: Dins de la mateixa intranet hem configurat mòduls per poder gestionar el correu electrònic de l'empresa, organitzar els calendaris conjunts i repartir i seguir les tasques logístiques de cada empleat.
 
-En aquest apartat es defineix l'ecosistema tecnològic de **FoodLogístics S.A.**, detallant la interconnexió entre els nous sistemes implementats i el flux de treball global de l'organització.
+Tota aquesta estructura web està muntada per funcionar de manera fluida i donar a l'empresa un entorn de treball col·laboratiu completament fet a mida.
 
-### 4.1. Funcionament global del sistema
+![](img/wordpres.png)
 
-La infraestructura s'ha dissenyat sota un model híbrid que combina la robustesa del control local amb la flexibilitat del núvol:
+# 5. Pressupost
 
-*   **Gestió Local:** Control d'usuaris, fitxers i dispositius mitjançant *Active Directory* i servidors en *Alta Disponibilitat*.
-*   **Gestió Cloud:** Comunicacions i correu electrònic centralitzats a *Microsoft 365*.
-*   **Capa Web:** Punt d'entrada de clients amb formularis de contacte vinculats a les polítiques de privacitat.
+Per ser el més transparents possible amb el client, hem dividit la nostra proposta econòmica en dues parts clares: el que costa muntar-ho tot d'inici i el que costarà mantenir-ho mes a mes perquè no hagin de patir per res.
 
-### 4.2. Diagrama d'Arquitectura Global
+Costos d'implantació:
+Hem fixat el nostre preu de mà d'obra en 45 euros l'hora, que és la mitjana que cobren els tècnics de sistemes i cloud a Espanya segons el que vam investigar a xarxes com LinkedIn. En total, calculem que dedicarem 47 hores de feina repartides així:
+* 16 hores per muntar els servidors d'alta disponibilitat, que són 720 euros.
+* 8 hores per configurar la gestió del servidor d'impressió, que són 360 euros.
+* 15 hores per guionar i editar els vídeos formatius de la LOPD, que pugen a 675 euros.
+* 8 hores per fer tota la migració dels correus antics cap al núvol, que sumen 360 euros.
 
-El següent diagrama representa la relació jeràrquica i el flux de dades entre els diferents components del projecte:
-```mermaid
-graph TD;
-    subgraph "Infraestructura Local (On-Premise)"
-        S1[Node A: Windows Server] --- S2[Node B: Windows Server]
-        subgraph "Serveis Interns"
-            AD[Active Directory]
-            FS[File Server - FSRM]
-            PS[Print Server - Pooling]
-        end
-        S1 & S2 --> AD
-        S1 & S2 --> FS
-        S1 & S2 --> PS
-    end
+Això fa un total de 2.115 euros nets. Com que les llicències inicials ja les incloem, si hi sumem el 21 per cent d'IVA, el cost d'arrencada de tot el projecte els queda en 2.559,15 euros.
 
-    subgraph "Serveis Cloud"
-        M365[Microsoft 365: Correu/Excel]
-        WEB[Landing Page: Web LOPD]
-    end
-
-    subgraph "Clients Finals"
-        PC[Estacions de Treball Win 10/11]
-    end
-
-    %% Relacions
-    AD -.-> PC
-    FS --> PC
-    PS --> PC
-    M365 <--> PC
-    WEB --> M365
-```
-### 4.3. Relació entre sistemes
-
-*   **Sincronització:** Els equips locals s'autentiquen mitjançant el domini local mentre utilitzen de forma integrada les eines de col·laboració en el núvol.
-*   **Flux de Dades:** Les dades recollides al formulari de la **Web (LOPD)** es gestionen sota les mesures de seguretat i xifratge de **Microsoft 365**.
-*   **Continuïtat:** Els nodes configurats en alta disponibilitat garanteixen que els serveis de **Fitxers (FS)** i **Impressió (PS)** estiguin permanentment disponibles per als clients de la xarxa.
-
----
-
-## 5. Pressupost
-
-El pressupost s’ha calculat basant-se en un preu mitjà de mercat de **45 €/hora** per a la consultoria i implementació IT. Es divideix en la inversió inicial de posada en marxa i les quotes mensuals de manteniment i serveis.
-
-### 5.1. Cost d'implantació (Inversió Inicial)
-
-Aquest apartat inclou les hores de mà d'obra tècnica necessàries per configurar tota la infraestructura d'alta disponibilitat, el sistema d'impressió, la formació legal i la migració al núvol.
-
-| Concepte | Unitats (Hores) | Preu Unitari | Total (sense IVA) |
+#### Taula 1: Desglossament de Costos d'Implantació
+| Concepte | Hores | Preu/Hora | Subtotal (Net) |
 | :--- | :---: | :---: | :---: |
-| **T03: Servidors d'Alta Disponibilitat** | 16 | 45,00 € | 720,00 € |
-| **T04: Gestió d'Impressió** | 8 | 45,00 € | 360,00 € |
-| **T05: Elaboració Vídeos LOPD** | 15 | 45,00 € | 675,00 € |
-| **T07: Migració al Cloud** | 8 | 45,00 € | 360,00 € |
-| **TOTAL MÀ D'OBRA (Base Imposable)** | **47** | | **2.115,00 €** |
-| IVA (21%) | | | 444,15 € |
-| **TOTAL IMPLANTACIÓ (amb IVA)** | | | **2.559,15 €** |
+| Servidors d'alta disponibilitat | 16 h | 45 € | 720 € |
+| Gestió servidor d'impressió | 8 h | 45 € | 360 € |
+| Guió i edició vídeos formatius LOPD | 15 h | 45 € | 675 € |
+| Migració de correu cap al núvol | 8 h | 45 € | 360 € |
+| **Total hores i base imposable** | **47 h** | - | **2.115 €** |
+| **TOTAL PROJECTE (IVA 21% Inclòs)** | - | - | **2.559,15 €** |
 
----
+Costos recurrents i manteniment:
+Aquesta és la quota fixa que l'empresa haurà de pagar cada mes per tenir els sistemes modernitzats i funcionant sense cap ensurt:
+* Llicències de la plataforma Microsoft 365 per als seus 35 usuaris, que surten a 196 euros al mes.
+* Allotjament de la pàgina web amb l'empresa Raiola Networks, que hem triat perquè tenen molt bon suport tècnic nacional, ens costa 8,95 euros al mes, i només cal afegir 6,90 euros un cop l'any pel domini .es.
+* El nostre servei de manteniment i suport tècnic costa 150 euros al mes. Aquí els donem tranquil·litat total perquè ens encarreguem de fer les còpies de seguretat, actualitzar la web i resoldre qualsevol incidència.
 
-### 5.2. Costos recurrents (Mensualitats)
+Totes aquestes despeses sumen 354,95 euros mensuals. Si hi apliquem l'IVA corresponent, la quota total que pagaran cada mes serà de 429,49 euros.
 
-Són les despeses fixes per mantenir les llicències de programari, l'allotjament de la web i el servei de suport tècnic preventiu.
-
-| Concepte | Periodicitat | Import (sense IVA) |
+#### Taula 2: Costos Recurrents i Manteniment
+| Concepte | Freqüència | Cost (Net) |
 | :--- | :--- | :---: |
-| Subscripció Microsoft 365 (35 usuaris) | Mensual | 196,00 € |
-| Manteniment Preventiu i Suport | Mensual | 150,00 € |
-| Allotjament Web (Hosting) | Mensual | 8,95 € |
-| **TOTAL MENSUAL (Base Imposable)** | | **354,95 €** |
-| IVA Mensual (21%) | | 74,54 € |
-| **TOTAL QUOTA MENSUAL (amb IVA)** | | **429,49 €** |
+| Llicències Microsoft 365 (35 usuaris) | Mensual | 196,00 € |
+| Allotjament Web (Raiola Networks) | Mensual | 8,95 € |
+| Manteniment i suport tècnic | Mensual | 150,00 € |
+| Domini .es | Anual | 6,90 € |
+| **Subtotal Mensual (Base imposable)** | **Mensual** | **354,95 €** |
+| **QUOTA TOTAL MENSUAL (IVA 21% Inclòs)** | **Mensual** | **429,49 €** |
 
-> **Nota:** El domini `.es` té un cost addicional de **6,90 €** de pagament anual.
+# 6. Planificació del projecte
 
----
+Per demostrar a la direcció de FoodLogistic que som un equip professional, hem dissenyat un pla de treball per tenir tota la modernització llesta en un termini de 15 dies hàbils. Hem organitzat les tasques amb cap perquè tot vagi rodat i no hi hagi temps morts.
 
-### 5.3. Justificació econòmica
+Ordre de les tasques i treball en paral·lel:
+* El primer de tot ha estat tancar la fase d'anàlisi i definir l'estructura de l'empresa. Sense això completat, era impossible començar a muntar l'Active Directory als servidors.
+* El cor del projecte és tota la configuració dels servidors i de les carpetes compartides. Aquesta tasca és el nostre coll d'ampolla principal, ja que si això no està acabat, no podem configurar l'alta disponibilitat de les impressores del magatzem ni tancar la documentació.
+* Mentre els servidors es configuraven, la resta de l'equip no s'ha quedat de braços creuats. Hem avançat en paral·lel amb el disseny de la identitat digital a la web i l'estudi de mercat del correu al núvol per optimitzar al màxim el nostre calendari.
 
-*   **Eficiència en la implantació:** S'ha optimitzat el calendari de treball per completar la posada en marxa en **47 hores totals** de servei tècnic.
-*   **Model SaaS:** L'ús de *Microsoft 365 Business Basic* permet un cost controlat per usuari (5,60 €/mes) amb una disponibilitat i seguretat garantides pel proveïdor.
-*   **Manteniment integral:** La quota de 150 € inclou tasques crítiques com el monitoratge de les còpies de seguretat i l'aplicació d'actualitzacions de seguretat.
+![](img/planificacioUML.png)
 
----
-
-## 6. Planificació
-
-La planificació del projecte s'ha dissenyat per modernitzar la infraestructura en un termini estricte de **15 dies hàbils (3 setmanes)**, garantint que les tasques crítiques de servidors no bloquegin la resta de l'operativa.
-
-### 6.1. Fases del projecte i temps estimat
-
-L'esforç s'ha calculat basant-se en la complexitat tècnica de cada tasca, incloent-hi la recerca, la implementació real i una fase de proves per evitar errors en producció.
-
-| Tasca | Descripció | Responsable | Temps estimat |
-| :--- | :--- | :--- | :--- |
-| **T01** | Estudi de la competència i organigrama estratègic. | Albert | 2 dies |
-| **T03** | Configuració de servidors, AD, permisos i FSRM. | Joel | 5 dies |
-| **T02** | Desenvolupament de la web corporativa base. | Lluís | 3 dies |
-| **T04** | Gestió d'impressió en xarxa i desplegament de GPOs. | Joel | 3 dies |
-| **T06** | Implementació de l'escut digital (LOPD-GDD) a la web. | Lluís | 2 dies |
-| **T07** | Estudi comparatiu i pla de migració al Cloud. | Albert | 3 dies |
-| **T05** | Producció de vídeos formatius de seguretat LOPD. | Lluís | 3 dies |
-| **T09** | Redacció de la memòria tècnica i documentació. | Albert | 3 dies |
-
----
-
-### 6.2. Diagrama de Gantt
-
-Aquest diagrama mostra el camí crític del projecte. Es pot observar que la **T03** és el bloquejant principal: sense la configuració dels servidors no es pot procedir a la gestió d'impressió (T04) ni a l'aplicació de polítiques de seguretat.
-```plantuml
+Codi UML
+```text
 @startgantt
 title Planificació del Projecte - FoodLogístics S.A.
 language ca
@@ -296,9 +186,9 @@ sunday are closed
 
 ' --- Estils ---
 skinparam {
-    ganttChartTitleFontSize 20
-    taskFontSize 14
-    taskHeight 30
+ganttChartTitleFontSize 20
+taskFontSize 14
+taskHeight 30
 }
 
 ' --- SETMANA 1 (4 a 8 de maig) ---
@@ -327,10 +217,22 @@ skinparam {
 [T09] starts at [T07]'s end
 [T10] starts at [T09]'s start
 
-' --- Dependències Forçades ---
+' --- Dependències Forçades (Fletxes) ---
 [T03] -> [T04]
 [T02] -> [T06]
 [T08] -> [T09]
+
+' --- Colors per Responsable (RACI) ---
+[T01] is colored in LightBlue
+[T07] is colored in LightBlue
+[T09] is colored in LightBlue
+[T10] is colored in LightBlue
+[T03] is colored in LightGreen
+[T04] is colored in LightGreen
+[T02] is colored in LightYellow
+[T05] is colored in LightYellow
+[T06] is colored in LightYellow
+[T08] is colored in LightGray
 
 legend right
 | Color | Responsable |
@@ -342,36 +244,34 @@ end legend
 @endgantt
 ```
 
-### 6.3. Anàlisi de riscos i contingència
+Repartiment de la feina:
+Ens hem dividit les responsabilitats per ser més eficients i aprofitar els punts forts de cadascú. En Joel s'ha encarregat de liderar la part dura de sistemes i del servidor d'impressió. El Lluís ha pres la responsabilitat de gestionar tota la part visual i de guions per als vídeos formatius de la LOPD. I finalment, l'Albert ha capitanejat la tria dels proveïdors per al núvol i s'ha encarregat de la part legal de la web i de buscar els consensos. 
 
-Per garantir el lliurament del projecte el **22 de maig**, s'han definit les següents mesures davant d'imprevistos:
+| Tasca | Albert | Joel | Lluís |
+| :-- | :-- | :-- | :-- |
+| T01 (Competència) | R/A | I | C |
+| T03 (Sistemes) | C | R/A | I |
+| T04 (Impressió) | I | R/A | C |
+| T05 (Vídeos LOPD) | C | I | R/A |
+| T07 (Cloud) | R/A | C | I |
+| T08 (Consens) | A | R | R |
 
-*   **Risc de retard en servidors (T03):** En cas que la configuració del controlador de domini s'allargui, s'utilitzaran els 2 dies de marge final i es prioritzaran les quotes NTFS per sobre del filtratge de fitxers.
-*   **Errors en GPOs (T04):** Es treballarà amb *snapshots* (punts de restauració) abans de cada desplegament per permetre un *rollback* immediat si la configuració d'impressores falla.
-*   **Paral·lelisme Operatiu:** Mentre es desenvolupa la infraestructura base, s'avançarà simultàniament en l'escut digital i la recerca Cloud per optimitzar els terminis del calendari.
+Pla de contingència i riscos:
+Com que en informàtica sempre hi pot haver imprevistos, hem preparat un pla de contingència per als riscos més evidents:
+* Si la configuració dels servidors s'allarga massa, aplicarem immediatament els 2 dies de marge que hem guardat al final del calendari i donarem prioritat a què funcionin les quotes d'espai abans que el filtre d'arxius.
+* Per evitar pantalles blaves o problemes a l'hora de desplegar les impressores als ordinadors de forma automàtica, farem còpies de seguretat exactes o snapshots abans de tocar cap directiva de grup.
+* Si a l'hora de la veritat el pressupost de les llicències de Microsoft superés el límit acordat, tenim llest el pla B per passar tota l'empresa a Google Workspace sense perdre temps.
 
----
+| Risc | Impacte | Mesura de resposta |
+| :-- | :-- | :-- |
+| Retard en T03 (AD/NTFS) | Alt | Aplicació immediata dels 2 dies de buffer final i priorització de les quotes NTFS sobre el filtratge de fitxers. |
+| Incompatibilitat GPO (T04) | Mitjà | Ús de punts de restauració (snapshots) abans del desplegament de les polítiques d'impressió. |
+| Error en Pressupost Cloud (T07) | Baix | Activació del Pla B (Google Workspace) si les llicències M365 superen el límit de cost per usuari. |
 
-## 7. Conclusions
+# 7. Conclusions finals
 
-La implementació d'aquest projecte transforma una infraestructura tecnològica obsoleta i insegura en un entorn professional, robust i preparat per al futur. La solució no només resol els problemes tècnics actuals, sinó que blinda l'operativa logística de l'empresa davant de qualsevol imprevist.
+Per tancar aquesta memòria tècnica, podem assegurar a la direcció de FoodLogistic S.A. que la proposta que presentem resol de soca-rel tots els problemes que ens van plantejar a causa del seu creixement recent. Hem dissenyat una infraestructura on els camions no s'aturaran mai per culpa d'una impressora o un servidor caigut, on els treballadors tindran més de mil gigues d'espai i eines col·laboratives al núvol, i on la privacitat de les dades estarà assegurada i complirà fil per randa amb la llei vigent, tant a les oficines com a la seva web.
 
----
+A més a més, el gran valor afegit de la nostra empresa no és només la tecnologia que instal·lem, sinó el servei que donem. Com a empresa de serveis informàtics amb seu a Mataró, oferim un suport tècnic de quilòmetre zero. Al contrari que altres empreses de la competència més grans que poden trigar hores a respondre o enviar un tècnic, nosaltres garantim que podem plantar-nos a la nau del Polígon de les Hortes en menys de 15 minuts si hi ha qualsevol aturada crítica.
 
-### 7.1. Valor de la proposta
-
-El valor principal de la nostra intervenció rau en la **seguretat integral** i la **tranquil·litat operativa**. Hem passat d'un model de "reacció davant l'error" a un model de prevenció activa mitjançant l'alta disponibilitat i els serveis al núvol. 
-
-La combinació de tecnologies punteres (*Microsoft 365*, *Dell HA*) amb una gestió de proximitat garanteix que la tecnologia sigui un motor i no un fre per a **FoodLogístic S.A.**
-
----
-
-### 7.2. Beneficis per al client
-
-*   **Continuïtat de Negoci Garantida:** Gràcies al *Printer Pooling* i als servidors redundants, el risc d'aturada de la cadena de logística per falta d'albarans és pràcticament zero.
-*   **Compliment Legal Absolut:** L'empresa ja compleix totalment amb la **LOPD-GDD** i el **RGPD**, tant a la seva pàgina web com en el tractament intern de dades, evitant sancions econòmiques greus.
-*   **Eficiència i Col·laboració:** La migració a *Microsoft 365* permet als 35 usuaris treballar amb eines modernes i un emmagatzematge d'1 TB que elimina les limitacions d'espai històriques.
-*   **Control i Orde:** L'estructura d'*Active Directory* i les quotes de disc *FSRM* permeten una administració professional on la informació està organitzada, xifrada i accessible només per al personal autoritzat.
-*   **Optimització Econòmica:** S'ha aconseguit una inversió inicial ajustada (**CAPEX**) i una quota mensual (**OPEX**) molt competitiva que inclou suport preventiu i llicenciament actualitzat.
-
-> **Conclusió final:** FoodLogístic S.A. disposa ara d'un **escut digital** que protegeix el seu actiu més valuós: la informació.
+Amb el nostre pressupost transparent, una planificació realista de 15 dies hàbils i el nostre equip tècnic dedicat, estem totalment preparats per modernitzar la informàtica de FoodLogistic i donar-los la tranquil·litat que necessiten per seguir creixent.
