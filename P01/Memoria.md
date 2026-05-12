@@ -41,9 +41,9 @@ Per solucionar això de soca-rel, hem dividit les seves necessitats en aquests q
 
 ## 3.1 Infraestructura i Alta Disponibilitat
 
-Per començar, hem organitzat l'Active Directory sota el domini foodlogistic.test. Hem creat una unitat organitzativa principal anomenada FoodLogistic_OU i a dins l'hem dividit en tres: Administració, Transport i Direcció. Dins d'aquestes unitats hem creat els grups de seguretat G_Administracio, G_Transport i G_Direccio. 
+Per començar, hem organitzat l'Active Directory sota el domini foodlogistic.test. Hem creat una unitat organitzativa principal anomenada FoodLogistic_OU i a dins hem creat dos OU mes "Grups" i "Usuaris", en la qual la OU "Grups" l'hem dividit en tres grups: Administració, Transport i Direcció. I en la OU de "Usuaris" con be diu el seu nom es on es guardaran i crearan el usuaris de FoodLogistic.
 
-![](img/1.png)
+![](<img/Captura de pantalla 2026-05-12 155325.png>)
 
 Pel que fa al servidor de fitxers, per organitzar la informació hem creat tres recursos compartits amb nivells de seguretat diferents:
 
