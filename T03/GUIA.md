@@ -25,14 +25,13 @@ Una bona estructura d’Unitats Organitzatives (OUs) permet:
 foodlogistic.test
 ├── OU=FoodLogistic
 │   ├── OU=Grups
-│   │   
+│   │   ├── Group=Administracio
+│   │   ├── Group=Transport
+│   │   └── Group=Direccio
 │   ├── OU=Usuaris
-│   │   ├── OU=Administracio
-│   │   ├── OU=Transport
-│   │   └── OU=Direccio
 ```
 
-![Estructura d'OUs al Active Directory](pics/image1.png)
+![alt text](<picsf2/Captura de pantalla 2026-04-14 163138.png>)
 
 ### Grups de Seguretat creats (Global Security Groups)
 
@@ -50,11 +49,13 @@ foodlogistic.test
 
 | Carpeta | Camí físic | Camí UNC | Grups amb accés | Mètode de creació | Permisos efectius (xarxa) | Observacions |
 |---------|-----------|----------|----------------|-------------------|---------------------------|--------------|
-| **Public** | `C:\Public` | `\\FL11\Public` | Tothom (Everyone) | Explorador de fitxers | **Lectura** | Sense ABE |
-| **Operacions** | `C:\Operacions` | `\\FL11\Operacions` | `Transport` | Server Manager (FSSM) | **Modificació** + ABE | Només visible per Transport |
-| **Direccio** | `C:\Direccio` | `\\FL11\Direccio` | `Direccio` | **PowerShell Avançat (Opció D)** | **Control Total** + ABE | Unitat **C:** via GPO |
+| **Public** | `C:\Public` | `\\FL07\Public` | Tothom (Everyone) | Explorador de fitxers | **Lectura** | Sense ABE |
+| **Operacions** | `C:\Operacions` | `\\FL07\Operacions` | `Transport` | Server Manager (FSSM) | **Modificació** + ABE | Només visible per Transport |
+| **Direccio** | `C:\Direccio` | `\\FL07\Direccio` | `Direccio` | **PowerShell Avançat (Opció D)** | **Control Total** + ABE | Unitat **C:** via GPO |
 
-**Servidor:** FL11.foodlogistic.test (Windows Server 2022)
+**Servidor:** FL07.foodlogistic.test (Windows Server 2022)
+
+![alt text](<picsf2/Captura de pantalla 2026-04-14 163256.png>)
 
 ---
 
@@ -71,7 +72,7 @@ Aquest apartat demostra el domini de la via gràfica bàsica. A més, l’enunci
 #### Passos detallats
 
 1. **Creació de la carpeta física**
-   - Ens connectem al servidor `FL11` amb un compte d’**Administrador de Domini**.
+   - Ens connectem al servidor `FL07` amb un compte d’**Administrador de Domini**.
    - Obrim l’**Explorador de fitxers** i anem a la unitat `C:\`.
    - Clic dret → **Nou** → **Carpeta** → Li posem el nom **`Public`**.
    - Ruta resultant: `C:\Public`
@@ -81,7 +82,7 @@ Aquest apartat demostra el domini de la via gràfica bàsica. A més, l’enunci
    - A la llista desplegable, seleccionem **Everyone** i li assignem el nivell **Lectura**.
    - Clic a **Compartir** i després **Fet**.
 
-   ![Permisos SMB de la carpeta Public](pics/image2.png)
+![alt text](<picsf2/Captura de pantalla 2026-05-22 173742.png>)
 
 3. **Configuració dels permisos NTFS**
    - A la mateixa finestra de **Propietats**, anem a la pestanya **Seguretat**.
@@ -90,7 +91,7 @@ Aquest apartat demostra el domini de la via gràfica bàsica. A més, l’enunci
    - Assegurem que el grup **Administradors** tingui **Control total**.
    - Clic a **Aplica** i **D’acord**.
 
-   ![Permisos NTFS de la carpeta Public](pics/image3.png)
+![alt text](<picsf2/Captura de pantalla 2026-05-22 173934.png>)
 
 #### Explicació tècnica: Càlcul del permís efectiu
 
@@ -134,16 +135,17 @@ El Server Manager ofereix una interfície més professional i completa que l’E
    - ☑ **Enable access-based enumeration**
    - Això farà que els usuaris només vegin aquesta carpeta si tenen permisos explícits sobre ella.
 
-   ![Configuració del share Operacions al Server Manager](<pics/Captura de pantalla 2026-04-21 155114 copy.png>)
+![alt text](<picsf2/Captura de pantalla 2026-05-22 174659.png>)
+
+![alt text](<picsf2/Captura de pantalla 2026-05-22 174620.png>)
 
 7. A la pantalla **Permissions**, eliminem els permisos per defecte i afegim **només** el grup `Transport` amb permisos de **Modificació** (Modify).
    - També assegurem que **Administradors** mantingui **Control total**.
 
-   ![Permisos del share Operacions](<pics/Captura de pantalla 2026-04-22 171521.png>)
+![alt text](<picsf2/Captura de pantalla 2026-05-22 174948.png>)
 
 8. Revisem el resum i cliquem **Create**.
 
-   ![Resum de la creació del share](<pics/Captura de pantalla 2026-04-21 155424.png>)
 
 #### Explicació tècnica
 L’**Access-Based Enumeration (ABE)** és una funcionalitat del protocol SMB que filtra la llista de fitxers i carpetes abans d’enviar-la al client. Si l’usuari no té permís de lectura sobre un element, aquest simplement **no apareix** en l’explorador de xarxa. Això millora la seguretat i evita confusions.
@@ -214,7 +216,7 @@ Perquè els usuaris de Direcció tinguin la carpeta accessible automàticament c
    ```
 6. Clic dret → **New** → **Mapped Drive**:
    - **Action:** Create
-   - **Location:** `\\FL11\Direccio`
+   - **Location:** `\\FL07\Direccio`
    - **Reconnect:** ☑ Enabled
    - **Label as:** Direccio
    - **Drive Letter:** C:
