@@ -146,7 +146,6 @@ El Server Manager ofereix una interfície més professional i completa que l’E
 
 8. Revisem el resum i cliquem **Create**.
 
-
 #### Explicació tècnica
 L’**Access-Based Enumeration (ABE)** és una funcionalitat del protocol SMB que filtra la llista de fitxers i carpetes abans d’enviar-la al client. Si l’usuari no té permís de lectura sobre un element, aquest simplement **no apareix** en l’explorador de xarxa. Això millora la seguretat i evita confusions.
 
